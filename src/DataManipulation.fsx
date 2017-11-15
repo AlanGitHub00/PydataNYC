@@ -89,42 +89,88 @@
 //then turns the ints into floats
 //then calculates the average
 
+//I Do: create an sequence of six tuples of (pet,count)
+//then counts the number of times each pet is present
 ["Dog",6;"Cat",3;"Fish",1;"Dog",2;"Fish",8;"Dog",3]
 |> Seq.countBy(fun (x,y) -> x)
+//You Do: create an sequence of five tuples of (pet,count)
+//then counts the number of times each pet is present
 
+//I Do: create an sequence of six tuples of (pet,count)
+//then sums the number of total counts
 ["Dog",6;"Cat",3;"Fish",1;"Dog",2;"Fish",8;"Dog",3]
 |> Seq.sumBy(fun (x,y) -> y)
+//You Do: create an sequence of five tuples of (pet,count)
+//then sums the number of total counts
 
+//I Do: create an sequence from 1 to 10 
+//sum up a running, cumulative total
 [1 .. 10]
 |> Seq.reduce(fun acc x -> acc + x)
+//You Do: create an sequence from 1 to 100
+//sum up a running, cumulative total
 
+//I Do: create an sequence from 1 to 10 
+//sum up a running, cumulative total starting at 100
 [1 .. 10]
 |> Seq.fold(fun acc x -> acc + x) 100
+//You Do: create an sequence from 1 to 100
+//sum up a running, cumulative total starting at 200
 
 //---GROUPING---
+//I Do: create an sequence of six tuples of (pet,count)
+//then group the tuples into sequences based on their name
 ["Dog",6;"Cat",3;"Fish",1;"Dog",2;"Fish",8;"Dog",3]
 |> Seq.groupBy(fun (x,y) -> x)
+//You Do: create an sequence of five tuples of (pet,count)
+//then group the tuples into sequences based on their name
 
+//I Do: create an sequence of six tuples of (pet,count)
+//then group the tuples into sequences based on their name
+//then get the number that each name appears
 ["Dog",6;"Cat",3;"Fish",1;"Dog",2;"Fish",8;"Dog",3]
 |> Seq.groupBy(fun (x,y) -> x)
 |> Seq.map(fun (a,b) -> a, b|> Seq.length)
+//You Do: create a sequence of five tuples of (pet,count)
+//then group the tuples into sequences based on their name
+//then get the number that each name appears
 
+//I Do: create a sequence of six tuples of (pet,count)
+//then group the tuples into sequences based on their name
+//then get the total of the count
 ["Dog",6;"Cat",3;"Fish",1;"Dog",2;"Fish",8;"Dog",3]
 |> Seq.groupBy(fun (x,y) -> x)
-|> Seq.map(fun (a,b) -> a, b|> Seq.map(fun (x,y) -> y) |> Seq.sum)
+|> Seq.map(fun (a,b) -> a, b |> Seq.sumBy(fun (x,y) -> y))
+//You Do: create an sequence of six tuples of (pet,count)
+//then group the tuples into sequences based on their name
+//then get the total of the count
+
 
 //---MERGING---
+//I Do: create a sequence of three pet types
+//then creat a sequence of three counts
+//then 'zip' both sequences together to create a single sequence of tuples
 let seq1 = ["Dog";"Cat";"Fish"]
 let seq2 = [6;3;1]
 Seq.zip seq1 seq2
+//You Do: create a sequence of three sport types
+//then create a sequence of three counts
+//then 'zip' both sequences together to create a single sequence of tuples
 
+//I Do: create ansequence of three tuples of (pet,count)
+//then create a sequence of three tuples of (pet,count)
+//the combine both sequences into a single six-item sequence
 let seq3 = ["Dog",6;"Cat",3;"Fish",1]
 let seq4 = ["Dog",2;"Fish",8;"Dog",3]
 Seq.append seq3 seq4
+//You Do: create ansequence of three tuples of (sport,count)
+//then create a sequence of three tuples of (sport,count)
+//the combine both sequences into a single six-item sequence
 
 //---PARALLEL---
 //Paket: Add Nuget Package FSharp.Collections.ParallelSeq
 
+//I Do: show you that with immutabity, parallelizing long-running tasks is a snap
 #r "packages/FSharp.Collections.ParallelSeq/lib/net40/FSharp.Collections.ParallelSeq.dll"
 open FSharp.Collections.ParallelSeq
 
