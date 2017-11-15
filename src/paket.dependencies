@@ -1,3 +1,5 @@
 source https://www.nuget.org/api/v2
+nuget Accord
+nuget Accord.Statistics
 nuget FSharp.Collections.ParallelSeq
 nuget FSharp.Data
