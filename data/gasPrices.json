@@ -1,0 +1,1525 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "nqur-w4p7",
+      "name" : "Gasoline Retail Prices Weekly Average by Region: Beginning 2007",
+      "attribution" : "New York State Energy Research and Development Authority Performance Management and Evaluation Services Group",
+      "attributionLink" : "http://www.nyserda.ny.gov/Energy-Data-and-Prices-Planning-and-Policy/Energy-Prices-Data-and-Reports/EA-Reports-and-Studies/Weekly-Transportation-Fuels-Report.aspx",
+      "averageRating" : 0,
+      "category" : "Energy & Environment",
+      "createdAt" : 1409175493,
+      "description" : "Gasoline retail prices weekly average by region dataset provides the weekly average retail gasoline prices for New York State and eight New York metropolitan regions in U.S. dollars per gallon.  Data is a weekly average from October 2007 through current.\r\n\r\nAverage daily retail gasoline prices are collected from the American Automobile Association (AAA) Daily Fuel Gauge Report.  The AAA Daily Fuel Gauge Report prices are averaged to produce a weekly average retail price for New York State and each metropolitan region.\r\n\r\nThe New York State metropolitan regions in the dataset are Albany (Albany-Schenectady-Troy), Binghamton, Buffalo (Buffalo-Niagara Falls), Nassau (Nassau-Suffolk), New York City, Rochester, Syracuse, and Utica (Utica-Rome).",
+      "displayType" : "table",
+      "downloadCount" : 3376,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1510268559,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 27212958,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1510268470,
+      "publicationGroup" : 1698623,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1510268465,
+      "rowsUpdatedBy" : "xzik-pf59",
+      "tableId" : 14603801,
+      "totalTimesRated" : 0,
+      "viewCount" : 41939,
+      "viewLastModified" : 1510268470,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 329300574,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "description" : "Weekly Monday from October 2007 through Current.",
+        "fieldName" : "date",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 21644317,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "2017-10-30T00:00:00",
+          "non_null" : 523,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2008-05-26T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2008-05-19T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2008-05-12T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2008-05-05T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2008-04-28T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2008-04-21T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2008-04-14T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2008-04-07T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2008-03-31T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2008-03-24T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2008-03-17T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2008-03-10T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2008-03-03T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2008-02-25T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2008-02-18T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2008-02-11T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2008-02-04T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2008-01-28T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2008-01-21T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2008-01-14T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2007-10-29T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "center"
+        }
+      }, {
+        "id" : 329300575,
+        "name" : "New York State Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for New York State ($/gallon).",
+        "fieldName" : "new_york_state_average_gal",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644318,
+        "width" : 261,
+        "cachedContents" : {
+          "largest" : "4.31",
+          "non_null" : 523,
+          "average" : "3.157820267686424",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2.83",
+            "count" : 20
+          }, {
+            "item" : "2.88",
+            "count" : 19
+          }, {
+            "item" : "2.87",
+            "count" : 18
+          }, {
+            "item" : "2.86",
+            "count" : 17
+          }, {
+            "item" : "2.09",
+            "count" : 16
+          }, {
+            "item" : "3.85",
+            "count" : 15
+          }, {
+            "item" : "4.19",
+            "count" : 14
+          }, {
+            "item" : "4.26",
+            "count" : 13
+          }, {
+            "item" : "4.3",
+            "count" : 12
+          }, {
+            "item" : "4.29",
+            "count" : 11
+          }, {
+            "item" : "3.4",
+            "count" : 10
+          }, {
+            "item" : "3.23",
+            "count" : 9
+          }, {
+            "item" : "3.27",
+            "count" : 8
+          }, {
+            "item" : "3.3",
+            "count" : 7
+          }, {
+            "item" : "3.31",
+            "count" : 6
+          }, {
+            "item" : "3.26",
+            "count" : 5
+          }, {
+            "item" : "3.28",
+            "count" : 4
+          }, {
+            "item" : "3.29",
+            "count" : 3
+          }, {
+            "item" : "3.21",
+            "count" : 2
+          }, {
+            "item" : "3.1",
+            "count" : 1
+          } ],
+          "smallest" : "1.83",
+          "sum" : "1651.54"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300576,
+        "name" : "Albany Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for Albany-Schenectady-Troy Metropolitan Area ($/gallon).",
+        "fieldName" : "albany_average_gal",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644319,
+        "width" : 213,
+        "cachedContents" : {
+          "largest" : "4.21",
+          "non_null" : 523,
+          "average" : "3.078240917782027",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2.98",
+            "count" : 20
+          }, {
+            "item" : "2.74",
+            "count" : 19
+          }, {
+            "item" : "2.78",
+            "count" : 18
+          }, {
+            "item" : "2.81",
+            "count" : 17
+          }, {
+            "item" : "2.77",
+            "count" : 16
+          }, {
+            "item" : "2.05",
+            "count" : 15
+          }, {
+            "item" : "3.74",
+            "count" : 14
+          }, {
+            "item" : "3.75",
+            "count" : 13
+          }, {
+            "item" : "3.8",
+            "count" : 12
+          }, {
+            "item" : "3.97",
+            "count" : 11
+          }, {
+            "item" : "4.2",
+            "count" : 10
+          }, {
+            "item" : "3.36",
+            "count" : 9
+          }, {
+            "item" : "3.31",
+            "count" : 8
+          }, {
+            "item" : "3.27",
+            "count" : 7
+          }, {
+            "item" : "3.23",
+            "count" : 6
+          }, {
+            "item" : "3.3",
+            "count" : 5
+          }, {
+            "item" : "3.29",
+            "count" : 4
+          }, {
+            "item" : "3.26",
+            "count" : 3
+          }, {
+            "item" : "3.25",
+            "count" : 2
+          }, {
+            "item" : "3.24",
+            "count" : 1
+          } ],
+          "smallest" : "1.78",
+          "sum" : "1609.92"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300577,
+        "name" : "Binghamton Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for Binghamton Metropolitan Area ($/gallon).",
+        "fieldName" : "binghamton_average_gal",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644320,
+        "width" : 250,
+        "cachedContents" : {
+          "largest" : "4.18",
+          "non_null" : 523,
+          "average" : "3.101567877629063",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.66",
+            "count" : 20
+          }, {
+            "item" : "2.79",
+            "count" : 19
+          }, {
+            "item" : "2.86",
+            "count" : 18
+          }, {
+            "item" : "3.74",
+            "count" : 17
+          }, {
+            "item" : "3.71",
+            "count" : 16
+          }, {
+            "item" : "3.7",
+            "count" : 15
+          }, {
+            "item" : "4.15",
+            "count" : 14
+          }, {
+            "item" : "3.37",
+            "count" : 13
+          }, {
+            "item" : "3.15",
+            "count" : 12
+          }, {
+            "item" : "3.14",
+            "count" : 11
+          }, {
+            "item" : "3.17",
+            "count" : 10
+          }, {
+            "item" : "3.19",
+            "count" : 9
+          }, {
+            "item" : "3.24",
+            "count" : 8
+          }, {
+            "item" : "3.26",
+            "count" : 7
+          }, {
+            "item" : "3.2",
+            "count" : 6
+          }, {
+            "item" : "3.21",
+            "count" : 5
+          }, {
+            "item" : "3.25",
+            "count" : 4
+          }, {
+            "item" : "3.23",
+            "count" : 3
+          }, {
+            "item" : "3.18",
+            "count" : 2
+          }, {
+            "item" : "3.08",
+            "count" : 1
+          } ],
+          "smallest" : "1.71",
+          "sum" : "1622.12"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300578,
+        "name" : "Buffalo Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for Buffalo-Niagara Falls Metropolitan Area ($/gallon).",
+        "fieldName" : "buffalo_average_gal",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644321,
+        "width" : 223,
+        "cachedContents" : {
+          "largest" : "4.27",
+          "non_null" : 523,
+          "average" : "3.138986615678776",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.74",
+            "count" : 20
+          }, {
+            "item" : "2.85",
+            "count" : 19
+          }, {
+            "item" : "2.86",
+            "count" : 18
+          }, {
+            "item" : "2.78",
+            "count" : 17
+          }, {
+            "item" : "2.8",
+            "count" : 16
+          }, {
+            "item" : "3.89",
+            "count" : 15
+          }, {
+            "item" : "4.27",
+            "count" : 14
+          }, {
+            "item" : "4.26",
+            "count" : 13
+          }, {
+            "item" : "3.27",
+            "count" : 12
+          }, {
+            "item" : "3.28",
+            "count" : 11
+          }, {
+            "item" : "3.3",
+            "count" : 10
+          }, {
+            "item" : "3.31",
+            "count" : 9
+          }, {
+            "item" : "3.32",
+            "count" : 8
+          }, {
+            "item" : "3.29",
+            "count" : 7
+          }, {
+            "item" : "3.21",
+            "count" : 6
+          }, {
+            "item" : "3.09",
+            "count" : 5
+          }, {
+            "item" : "2.99",
+            "count" : 4
+          } ],
+          "smallest" : "1.85",
+          "sum" : "1641.69"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300579,
+        "name" : "Nassau Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for Nassau-Suffolk Metropolitan Area ($/gallon).",
+        "fieldName" : "nassau_average_gal",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644322,
+        "width" : 224,
+        "cachedContents" : {
+          "largest" : "4.34",
+          "non_null" : 523,
+          "average" : "3.179388145315488",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.77",
+            "count" : 20
+          }, {
+            "item" : "2.94",
+            "count" : 19
+          }, {
+            "item" : "2.84",
+            "count" : 18
+          }, {
+            "item" : "2.96",
+            "count" : 17
+          }, {
+            "item" : "2.88",
+            "count" : 16
+          }, {
+            "item" : "2.87",
+            "count" : 15
+          }, {
+            "item" : "4.19",
+            "count" : 14
+          }, {
+            "item" : "4.32",
+            "count" : 13
+          }, {
+            "item" : "3.25",
+            "count" : 12
+          }, {
+            "item" : "3.29",
+            "count" : 11
+          }, {
+            "item" : "3.26",
+            "count" : 10
+          }, {
+            "item" : "3.27",
+            "count" : 9
+          }, {
+            "item" : "3.28",
+            "count" : 8
+          }, {
+            "item" : "3.18",
+            "count" : 7
+          }, {
+            "item" : "3.06",
+            "count" : 6
+          }, {
+            "item" : "2.95",
+            "count" : 5
+          } ],
+          "smallest" : "1.82",
+          "sum" : "1662.82"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300580,
+        "name" : "New York City Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for New York City Metropolitan Area ($/gallon).",
+        "fieldName" : "new_york_city_average_gal",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644323,
+        "width" : 255,
+        "cachedContents" : {
+          "largest" : "4.41",
+          "non_null" : 523,
+          "average" : "3.243193116634799",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2.88",
+            "count" : 20
+          }, {
+            "item" : "2.97",
+            "count" : 19
+          }, {
+            "item" : "2.96",
+            "count" : 18
+          }, {
+            "item" : "2.91",
+            "count" : 17
+          }, {
+            "item" : "2.9",
+            "count" : 16
+          }, {
+            "item" : "2.87",
+            "count" : 15
+          }, {
+            "item" : "2.89",
+            "count" : 14
+          }, {
+            "item" : "2.13",
+            "count" : 13
+          }, {
+            "item" : "4.38",
+            "count" : 12
+          }, {
+            "item" : "3.42",
+            "count" : 11
+          }, {
+            "item" : "3.32",
+            "count" : 10
+          }, {
+            "item" : "3.33",
+            "count" : 9
+          }, {
+            "item" : "3.29",
+            "count" : 8
+          }, {
+            "item" : "3.3",
+            "count" : 7
+          }, {
+            "item" : "3.31",
+            "count" : 6
+          }, {
+            "item" : "3.28",
+            "count" : 5
+          }, {
+            "item" : "3.26",
+            "count" : 4
+          }, {
+            "item" : "3.18",
+            "count" : 3
+          }, {
+            "item" : "3.07",
+            "count" : 2
+          } ],
+          "smallest" : "1.9",
+          "sum" : "1696.19"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300581,
+        "name" : "Rochester Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for Rochester Metropolitan Area ($/gallon).",
+        "fieldName" : "rochester_average_gal",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644324,
+        "width" : 243,
+        "cachedContents" : {
+          "largest" : "4.24",
+          "non_null" : 523,
+          "average" : "3.116137667304015",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.81",
+            "count" : 20
+          }, {
+            "item" : "3.7",
+            "count" : 19
+          }, {
+            "item" : "2.94",
+            "count" : 18
+          }, {
+            "item" : "2.8",
+            "count" : 17
+          }, {
+            "item" : "2.86",
+            "count" : 16
+          }, {
+            "item" : "2.84",
+            "count" : 15
+          }, {
+            "item" : "2.78",
+            "count" : 14
+          }, {
+            "item" : "2.09",
+            "count" : 13
+          }, {
+            "item" : "4.07",
+            "count" : 12
+          }, {
+            "item" : "4.24",
+            "count" : 11
+          }, {
+            "item" : "3.28",
+            "count" : 10
+          }, {
+            "item" : "3.29",
+            "count" : 9
+          }, {
+            "item" : "3.3",
+            "count" : 8
+          }, {
+            "item" : "3.32",
+            "count" : 7
+          }, {
+            "item" : "3.31",
+            "count" : 6
+          }, {
+            "item" : "3.26",
+            "count" : 5
+          }, {
+            "item" : "3.2",
+            "count" : 4
+          }, {
+            "item" : "3.09",
+            "count" : 3
+          }, {
+            "item" : "3",
+            "count" : 2
+          } ],
+          "smallest" : "1.8",
+          "sum" : "1629.74"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300582,
+        "name" : "Syracuse Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for Syracuse Metropolitan Area ($/gallon).",
+        "fieldName" : "syracuse_average_gal",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644325,
+        "width" : 236,
+        "cachedContents" : {
+          "largest" : "4.23",
+          "non_null" : 523,
+          "average" : "3.067705544933078",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.75",
+            "count" : 20
+          }, {
+            "item" : "3.62",
+            "count" : 19
+          }, {
+            "item" : "2.76",
+            "count" : 18
+          }, {
+            "item" : "2.79",
+            "count" : 17
+          }, {
+            "item" : "2.8",
+            "count" : 16
+          }, {
+            "item" : "2.07",
+            "count" : 15
+          }, {
+            "item" : "3.63",
+            "count" : 14
+          }, {
+            "item" : "3.77",
+            "count" : 13
+          }, {
+            "item" : "4.22",
+            "count" : 12
+          }, {
+            "item" : "3.23",
+            "count" : 11
+          }, {
+            "item" : "3.25",
+            "count" : 10
+          }, {
+            "item" : "3.27",
+            "count" : 9
+          }, {
+            "item" : "3.3",
+            "count" : 8
+          }, {
+            "item" : "3.32",
+            "count" : 7
+          }, {
+            "item" : "3.31",
+            "count" : 6
+          }, {
+            "item" : "3.29",
+            "count" : 5
+          }, {
+            "item" : "3.28",
+            "count" : 4
+          }, {
+            "item" : "3.22",
+            "count" : 3
+          }, {
+            "item" : "3.1",
+            "count" : 2
+          }, {
+            "item" : "2.99",
+            "count" : 1
+          } ],
+          "smallest" : "1.76",
+          "sum" : "1604.41"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      }, {
+        "id" : 329300583,
+        "name" : "Utica Average ($/gal)",
+        "dataTypeName" : "number",
+        "description" : "Weekly average regular grade gasoline price for Utica-Rome Metropolitan Area ($/gallon).",
+        "fieldName" : "utica_average_gal",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21644326,
+        "width" : 203,
+        "cachedContents" : {
+          "largest" : "4.22",
+          "non_null" : 523,
+          "average" : "3.126787762906310",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3.7",
+            "count" : 20
+          }, {
+            "item" : "3.88",
+            "count" : 19
+          }, {
+            "item" : "2.84",
+            "count" : 18
+          }, {
+            "item" : "2.83",
+            "count" : 17
+          }, {
+            "item" : "2.86",
+            "count" : 16
+          }, {
+            "item" : "2.09",
+            "count" : 15
+          }, {
+            "item" : "3.71",
+            "count" : 14
+          }, {
+            "item" : "3.78",
+            "count" : 13
+          }, {
+            "item" : "4.2",
+            "count" : 12
+          }, {
+            "item" : "4.22",
+            "count" : 11
+          }, {
+            "item" : "3.4",
+            "count" : 10
+          }, {
+            "item" : "3.3",
+            "count" : 9
+          }, {
+            "item" : "3.33",
+            "count" : 8
+          }, {
+            "item" : "3.34",
+            "count" : 7
+          }, {
+            "item" : "3.32",
+            "count" : 6
+          }, {
+            "item" : "3.31",
+            "count" : 5
+          }, {
+            "item" : "3.25",
+            "count" : 4
+          }, {
+            "item" : "3.12",
+            "count" : 3
+          }, {
+            "item" : "3.03",
+            "count" : 2
+          } ],
+          "smallest" : "1.81",
+          "sum" : "1635.31"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "2",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "filename" : "NYSERDA_Gasoline_RetailPriceWeeklyAveragebyRegion DataDictionary.pdf",
+          "assetId" : "0INbKLJDc3wYHy2MCPDlvAtxVC0ps8RqgrBgdM_BsUA",
+          "blobId" : "",
+          "name" : "NYSERDA_Gasoline_RetailPriceWeeklyAveragebyRegion DataDictionary.pdf"
+        }, {
+          "filename" : "NYSERDA_Gasoline_RetailPriceWeeklyAveragebyRegion_Overview.pdf",
+          "assetId" : "mJBID07tst8EnXfcm-hq3KGQKaagiMU-lZVF1XSZDq8",
+          "blobId" : "",
+          "name" : "NYSERDA_Gasoline_RetailPriceWeeklyAveragebyRegion_Overview.pdf"
+        } ],
+        "custom_fields" : {
+          "Dataset Summary" : {
+            "Posting Frequency" : "Monthly",
+            "Organization" : "NYSERDA Energy Analysis",
+            "Contact Information" : "openny@nyserda.ny.gov",
+            "Time Period" : "Beginning October 2007",
+            "Coverage" : "Statewide",
+            "Granularity" : "Metropolitan region",
+            "Dataset Owner" : "New York State Energy Research and Development Authority",
+            "Data Frequency" : "Weekly"
+          },
+          "Additional Resources" : {
+            "See Also" : "http://www.fuelgaugereport.com"
+          },
+          "Dataset Information" : {
+            "Agency" : "Energy Research and Development Authority"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "screenName" : "NY Open Data"
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 329300574,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "screenName" : "NY Open Data"
+      },
+      "tags" : [ "gasoline", "energy prices", "transportation fuels" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "5D5BB6CA-31A7-4C0E-90AF-A2541057C83B", 1, 1510268463, "708543", 1510268463, "708543", null, "2017-10-30T00:00:00", "2.64", "2.58", "2.59", "2.65", "2.60", "2.77", "2.56", "2.48", "2.59" ]
+, [ 2, "700267A1-08A4-4303-A0CE-A8EF4725ACF1", 2, 1510268463, "708543", 1510268463, "708543", null, "2017-10-23T00:00:00", "2.65", "2.60", "2.61", "2.67", "2.62", "2.78", "2.56", "2.46", "2.62" ]
+, [ 3, "4B2CA7CE-4235-4DFF-9569-96FE9F5C7EC6", 3, 1510268463, "708543", 1510268463, "708543", null, "2017-10-16T00:00:00", "2.68", "2.62", "2.64", "2.69", "2.66", "2.81", "2.61", "2.50", "2.66" ]
+, [ 4, "8E3B7A25-88D6-4094-AEBD-CA7AF0B1B65E", 4, 1510268463, "708543", 1510268463, "708543", null, "2017-10-09T00:00:00", "2.72", "2.65", "2.68", "2.71", "2.71", "2.85", "2.66", "2.56", "2.68" ]
+, [ 5, "23602FB6-2D49-460F-A667-E06511C8C650", 5, 1510268463, "708543", 1510268463, "708543", null, "2017-10-02T00:00:00", "2.76", "2.67", "2.71", "2.73", "2.76", "2.88", "2.71", "2.64", "2.72" ]
+, [ 6, "A7A97A79-CC04-4392-B4A7-12D939C939C9", 6, 1510268463, "708543", 1510268463, "708543", null, "2017-09-25T00:00:00", "2.79", "2.7", "2.74", "2.75", "2.81", "2.93", "2.75", "2.7", "2.75" ]
+, [ 7, "C8E2E2BD-C664-422A-B4AF-BE5D09878C42", 7, 1510268463, "708543", 1510268463, "708543", null, "2017-09-18T00:00:00", "2.82", "2.72", "2.76", "2.76", "2.85", "2.96", "2.76", "2.75", "2.77" ]
+, [ 8, "71B87ADA-03DA-4C8E-BC36-E0ABAED126F1", 8, 1510268463, "708543", 1510268463, "708543", null, "2017-09-11T00:00:00", "2.82", "2.72", "2.76", "2.73", "2.87", "2.97", "2.74", "2.74", "2.78" ]
+, [ 9, "8BCE4D0A-4293-4985-9DAF-5A9A23EC9FDC", 9, 1510268463, "708543", 1510268463, "708543", null, "2017-09-04T00:00:00", "2.58", "2.48", "2.53", "2.51", "2.63", "2.72", "2.51", "2.49", "2.53" ]
+, [ 10, "411575C2-07B6-499B-8277-3715859C7E54", 10, 1510268463, "708543", 1510268463, "708543", null, "2017-08-28T00:00:00", "2.48", "2.34", "2.43", "2.43", "2.51", "2.61", "2.41", "2.36", "2.42" ]
+, [ 11, "44A1CD3D-41F2-44E3-A246-36FEC139B16D", 11, 1510268463, "708543", 1510268463, "708543", null, "2017-08-21T00:00:00", "2.48", "2.35", "2.43", "2.42", "2.52", "2.61", "2.42", "2.38", "2.42" ]
+, [ 12, "B88E3410-B091-49E1-BF85-34DC41D5BE87", 12, 1510268463, "708543", 1510268463, "708543", null, "2017-08-14T00:00:00", "2.48", "2.36", "2.43", "2.38", "2.53", "2.62", "2.42", "2.39", "2.43" ]
+, [ 13, "53626121-9120-46BF-9C8D-1C1F163C176E", 13, 1510268463, "708543", 1510268463, "708543", null, "2017-08-07T00:00:00", "2.47", "2.35", "2.42", "2.37", "2.52", "2.61", "2.4", "2.38", "2.41" ]
+, [ 14, "A058E753-2123-4C94-822A-CB0B86531BF2", 14, 1510268463, "708543", 1510268463, "708543", null, "2017-07-31T00:00:00", "2.44", "2.32", "2.38", "2.35", "2.48", "2.59", "2.36", "2.33", "2.38" ]
+, [ 15, "C3158069-5152-4380-9813-8EA018E52852", 15, 1510268463, "708543", 1510268463, "708543", null, "2017-07-24T00:00:00", "2.42", "2.3", "2.36", "2.34", "2.45", "2.58", "2.35", "2.3", "2.37" ]
+, [ 16, "472A67EA-6D66-4BF9-9F92-12781BD7916C", 16, 1510268463, "708543", 1510268463, "708543", null, "2017-07-17T00:00:00", "2.41", "2.28", "2.36", "2.34", "2.44", "2.57", "2.34", "2.27", "2.36" ]
+, [ 17, "06714BAD-9174-4486-9B6C-162053F37DC3", 17, 1510268463, "708543", 1510268463, "708543", null, "2017-07-10T00:00:00", "2.42", "2.29", "2.36", "2.34", "2.44", "2.58", "2.34", "2.28", "2.37" ]
+, [ 18, "57F4373B-F6D2-4799-A802-39E078991EFC", 18, 1510268463, "708543", 1510268463, "708543", null, "2017-07-03T00:00:00", "2.43", "2.3", "2.38", "2.35", "2.46", "2.59", "2.36", "2.29", "2.38" ]
+, [ 19, "1A026C6F-033F-4C2B-ACD8-24E29E478898", 19, 1510268463, "708543", 1510268463, "708543", null, "2017-06-26T00:00:00", "2.45", "2.32", "2.39", "2.37", "2.47", "2.6", "2.38", "2.31", "2.4" ]
+, [ 20, "3D275362-454B-43E9-8D63-EEE66E5AB962", 20, 1510268463, "708543", 1510268463, "708543", null, "2017-06-19T00:00:00", "2.48", "2.36", "2.42", "2.41", "2.5", "2.62", "2.41", "2.35", "2.42" ]
+, [ 21, "4825CDFE-1352-4DCA-9F22-BE7C8B77A12A", 21, 1510268463, "708543", 1510268463, "708543", null, "2017-06-12T00:00:00", "2.5", "2.39", "2.44", "2.42", "2.52", "2.63", "2.43", "2.38", "2.44" ]
+, [ 22, "3E04DBA7-C8B8-469E-8DA3-8BCB946980CC", 22, 1510268463, "708543", 1510268463, "708543", null, "2017-06-05T00:00:00", "2.51", "2.42", "2.47", "2.43", "2.53", "2.64", "2.45", "2.41", "2.46" ]
+, [ 23, "7C1A733C-1D39-41DC-A1DB-4796FF42ECDA", 23, 1510268463, "708543", 1510268463, "708543", null, "2017-05-29T00:00:00", "2.51", "2.43", "2.47", "2.43", "2.53", "2.64", "2.44", "2.4", "2.45" ]
+, [ 24, "3A9E3EFF-0330-4BB3-9840-C17A6E6C7D1E", 24, 1510268463, "708543", 1510268463, "708543", null, "2017-05-22T00:00:00", "2.5", "2.42", "2.45", "2.43", "2.52", "2.63", "2.42", "2.38", "2.45" ]
+, [ 25, "7C36CB5F-9EA4-4F2E-A74A-1A713AE8B778", 25, 1510268463, "708543", 1510268463, "708543", null, "2017-05-15T00:00:00", "2.51", "2.43", "2.46", "2.45", "2.53", "2.63", "2.43", "2.4", "2.46" ]
+, [ 26, "9C6B22A1-F1A4-4824-8200-0AEDF453FCE2", 26, 1510268463, "708543", 1510268463, "708543", null, "2017-05-08T00:00:00", "2.52", "2.44", "2.48", "2.47", "2.55", "2.64", "2.45", "2.43", "2.48" ]
+, [ 27, "5BB631F2-43C4-4AAD-A663-C8A1F14B63CF", 27, 1510268463, "708543", 1510268463, "708543", null, "2017-05-01T00:00:00", "2.54", "2.46", "2.5", "2.49", "2.56", "2.65", "2.47", "2.46", "2.5" ]
+, [ 28, "AE9E1C98-0D8F-43A2-943D-E58B720E6511", 28, 1510268463, "708543", 1510268463, "708543", null, "2017-04-24T00:00:00", "2.53", "2.47", "2.51", "2.49", "2.54", "2.64", "2.47", "2.51", "2.5" ]
+, [ 29, "CFEB54B3-8F93-4CA8-A388-9DAA90A933FE", 29, 1510268463, "708543", 1510268463, "708543", null, "2017-04-17T00:00:00", "2.51", "2.44", "2.49", "2.48", "2.51", "2.62", "2.45", "2.44", "2.48" ]
+, [ 30, "EEC2B3E3-FBE2-473D-B186-F3772D69AF7C", 30, 1510268463, "708543", 1510268463, "708543", null, "2017-04-10T00:00:00", "2.47", "2.37", "2.41", "2.43", "2.47", "2.6", "2.39", "2.37", "2.42" ]
+, [ 31, "2B11FC9B-91A6-4E04-8B25-64D64B2F497E", 31, 1510268463, "708543", 1510268463, "708543", null, "2017-04-03T00:00:00", "2.43", "2.31", "2.37", "2.4", "2.42", "2.58", "2.34", "2.3", "2.37" ]
+, [ 32, "5ACF1F70-16C5-4CE0-BA2D-1561C267D723", 32, 1510268463, "708543", 1510268463, "708543", null, "2017-03-27T00:00:00", "2.42", "2.31", "2.37", "2.4", "2.42", "2.58", "2.34", "2.29", "2.36" ]
+, [ 33, "20D1E6B1-31B8-43FC-A33F-4F08796F2A25", 33, 1510268463, "708543", 1510268463, "708543", null, "2017-03-20T00:00:00", "2.43", "2.31", "2.37", "2.41", "2.44", "2.59", "2.35", "2.3", "2.37" ]
+, [ 34, "8ABC6440-0264-4337-BB05-8F0757064A11", 34, 1510268463, "708543", 1510268463, "708543", null, "2017-03-13T00:00:00", "2.44", "2.31", "2.38", "2.41", "2.45", "2.59", "2.35", "2.31", "2.38" ]
+, [ 35, "280C907B-9509-46A0-AED9-A8AC5C2FDDA7", 35, 1510268463, "708543", 1510268463, "708543", null, "2017-03-06T00:00:00", "2.45", "2.32", "2.39", "2.42", "2.47", "2.61", "2.36", "2.33", "2.39" ]
+, [ 36, "57D2D41E-5D54-4399-9B5B-82B2280B71F9", 36, 1510268463, "708543", 1510268463, "708543", null, "2017-02-27T00:00:00", "2.47", "2.34", "2.4", "2.43", "2.49", "2.62", "2.37", "2.34", "2.41" ]
+, [ 37, "2815DA00-F68D-4371-BA34-82F4637058E4", 37, 1510268463, "708543", 1510268463, "708543", null, "2017-02-20T00:00:00", "2.48", "2.36", "2.41", "2.44", "2.51", "2.63", "2.39", "2.35", "2.41" ]
+, [ 38, "0C9C5F69-F7DC-4D0E-BF58-7B57D612BB2A", 38, 1510268463, "708543", 1510268463, "708543", null, "2017-02-13T00:00:00", "2.48", "2.36", "2.41", "2.44", "2.51", "2.64", "2.4", "2.33", "2.41" ]
+, [ 39, "8270C170-F552-45AE-BB7B-56960B9D4CDF", 39, 1510268463, "708543", 1510268463, "708543", null, "2017-02-06T00:00:00", "2.5", "2.38", "2.43", "2.46", "2.52", "2.65", "2.42", "2.36", "2.42" ]
+, [ 40, "411CAF89-122C-4D70-BF9F-3796F582BF54", 40, 1510268463, "708543", 1510268463, "708543", null, "2017-01-30T00:00:00", "2.51", "2.4", "2.46", "2.46", "2.54", "2.66", "2.45", "2.38", "2.45" ]
+, [ 41, "E9684BF3-47EC-4BC3-8EC4-0C500DBBF07E", 41, 1510268463, "708543", 1510268463, "708543", null, "2017-01-23T00:00:00", "2.53", "2.43", "2.48", "2.47", "2.56", "2.66", "2.47", "2.42", "2.46" ]
+, [ 42, "DD9B211B-34CF-4973-BFA0-65E6C8D31F16", 42, 1510268463, "708543", 1510268463, "708543", null, "2017-01-16T00:00:00", "2.54", "2.45", "2.5", "2.47", "2.57", "2.66", "2.48", "2.44", "2.48" ]
+, [ 43, "26747C88-2230-4780-B10F-BCDD8E753516", 43, 1510268463, "708543", 1510268463, "708543", null, "2017-01-09T00:00:00", "2.54", "2.46", "2.51", "2.46", "2.57", "2.66", "2.48", "2.44", "2.49" ]
+, [ 44, "19C40D1D-FDAC-4E71-B8F2-C47BA925B078", 44, 1510268463, "708543", 1510268463, "708543", null, "2017-01-02T00:00:00", "2.49", "2.41", "2.46", "2.42", "2.53", "2.62", "2.43", "2.4", "2.46" ]
+, [ 45, "E2A625E4-2563-42A7-B513-D1A0CA05D51F", 45, 1510268463, "708543", 1510268463, "708543", null, "2016-12-26T00:00:00", "2.45", "2.36", "2.42", "2.39", "2.48", "2.58", "2.39", "2.35", "2.42" ]
+, [ 46, "695520C9-3191-4296-BA71-EC954BFD36F6", 46, 1510268463, "708543", 1510268463, "708543", null, "2016-12-19T00:00:00", "2.43", "2.33", "2.39", "2.37", "2.45", "2.55", "2.37", "2.33", "2.39" ]
+, [ 47, "F3B78FF0-710D-4322-9EEA-F3C0A75C8E78", 47, 1510268463, "708543", 1510268463, "708543", null, "2016-12-12T00:00:00", "2.41", "2.32", "2.37", "2.36", "2.43", "2.53", "2.35", "2.31", "2.36" ]
+, [ 48, "6BBD8AB6-0B80-4362-9712-C6734B0DA4E5", 48, 1510268463, "708543", 1510268463, "708543", null, "2016-12-05T00:00:00", "2.37", "2.27", "2.34", "2.34", "2.37", "2.49", "2.33", "2.26", "2.33" ]
+, [ 49, "258B625B-F877-4024-AD81-E4014772E34F", 49, 1510268463, "708543", 1510268463, "708543", null, "2016-11-28T00:00:00", "2.36", "2.26", "2.34", "2.33", "2.37", "2.48", "2.33", "2.26", "2.33" ]
+, [ 50, "4553434E-E491-4432-9A5F-C756E18EF82B", 50, 1510268463, "708543", 1510268463, "708543", null, "2016-11-21T00:00:00", "2.38", "2.28", "2.36", "2.34", "2.38", "2.49", "2.34", "2.28", "2.34" ]
+, [ 51, "5A936B27-D822-4C73-820D-85ACF0A4FCD4", 51, 1510268463, "708543", 1510268463, "708543", null, "2016-11-14T00:00:00", "2.39", "2.31", "2.38", "2.35", "2.41", "2.51", "2.35", "2.3", "2.36" ]
+, [ 52, "1BC71130-1816-4CB8-8ECE-E679C8AB35C0", 52, 1510268463, "708543", 1510268463, "708543", null, "2016-11-07T00:00:00", "2.39", "2.32", "2.39", "2.34", "2.4", "2.5", "2.34", "2.3", "2.36" ]
+, [ 53, "8A2FB130-45B5-4DF7-AD8A-F81D26AC7C05", 53, 1510268463, "708543", 1510268463, "708543", null, "2016-10-31T00:00:00", "2.38", "2.31", "2.36", "2.33", "2.39", "2.48", "2.33", "2.29", "2.35" ]
+, [ 54, "30054528-5432-4B8A-8FF7-F81B313D8015", 54, 1510268463, "708543", 1510268463, "708543", null, "2016-10-24T00:00:00", "2.37", "2.29", "2.35", "2.32", "2.38", "2.48", "2.32", "2.28", "2.34" ]
+, [ 55, "F5A70EF6-2052-4EB4-BF2E-E91BBC5181F9", 55, 1510268463, "708543", 1510268463, "708543", null, "2016-10-17T00:00:00", "2.36", "2.28", "2.34", "2.31", "2.37", "2.47", "2.31", "2.27", "2.33" ]
+, [ 56, "1A1F8FA1-5305-4522-9818-04DD3BDF2B19", 56, 1510268463, "708543", 1510268463, "708543", null, "2016-10-10T00:00:00", "2.34", "2.26", "2.32", "2.29", "2.35", "2.46", "2.28", "2.25", "2.29" ]
+, [ 57, "FF9C5679-7064-4598-883A-6D0290C48310", 57, 1510268463, "708543", 1510268463, "708543", null, "2016-10-03T00:00:00", "2.32", "2.22", "2.28", "2.27", "2.34", "2.45", "2.26", "2.2", "2.26" ]
+, [ 58, "C7C9FD6D-1F37-4932-A302-C945D9F50C57", 58, 1510268463, "708543", 1510268463, "708543", null, "2016-09-26T00:00:00", "2.32", "2.21", "2.27", "2.27", "2.35", "2.45", "2.25", "2.18", "2.25" ]
+, [ 59, "4701EC4E-AEC8-46A1-8DA8-6DB000B49F42", 59, 1510268463, "708543", 1510268463, "708543", null, "2016-09-19T00:00:00", "2.32", "2.2", "2.26", "2.27", "2.34", "2.45", "2.26", "2.19", "2.25" ]
+, [ 60, "C8560C50-BE7C-485B-AC9B-A42CB4E6722E", 60, 1510268463, "708543", 1510268463, "708543", null, "2016-09-12T00:00:00", "2.32", "2.21", "2.27", "2.28", "2.34", "2.45", "2.27", "2.2", "2.25" ]
+, [ 61, "455D7F72-76B0-40B9-B747-D7999F58BA6D", 61, 1510268463, "708543", 1510268463, "708543", null, "2016-09-05T00:00:00", "2.33", "2.23", "2.29", "2.28", "2.35", "2.46", "2.28", "2.22", "2.26" ]
+, [ 62, "D8A86614-F25C-45CD-B599-6E64377A1DC2", 62, 1510268463, "708543", 1510268463, "708543", null, "2016-08-29T00:00:00", "2.33", "2.22", "2.28", "2.28", "2.35", "2.46", "2.27", "2.2", "2.25" ]
+, [ 63, "94F1B865-4212-40C9-B6F4-211981818A5D", 63, 1510268463, "708543", 1510268463, "708543", null, "2016-08-22T00:00:00", "2.3", "2.16", "2.23", "2.28", "2.32", "2.45", "2.24", "2.13", "2.18" ]
+, [ 64, "BB64B630-269A-4170-9F78-80A588E83EAF", 64, 1510268463, "708543", 1510268463, "708543", null, "2016-08-15T00:00:00", "2.3", "2.16", "2.24", "2.29", "2.33", "2.45", "2.25", "2.12", "2.18" ]
+, [ 65, "68492BEA-273F-40A2-BBF0-E3CA19CC409E", 65, 1510268463, "708543", 1510268463, "708543", null, "2016-08-08T00:00:00", "2.32", "2.18", "2.26", "2.3", "2.34", "2.47", "2.27", "2.12", "2.21" ]
+, [ 66, "0DD68884-6A6F-4E89-AE45-FA179F9E8741", 66, 1510268463, "708543", 1510268463, "708543", null, "2016-08-01T00:00:00", "2.34", "2.21", "2.28", "2.33", "2.38", "2.49", "2.29", "2.16", "2.24" ]
+, [ 67, "A875EB11-F9BF-415C-BB3C-E8FA12FAEBDC", 67, 1510268463, "708543", 1510268463, "708543", null, "2016-07-25T00:00:00", "2.37", "2.23", "2.32", "2.35", "2.4", "2.51", "2.3", "2.18", "2.26" ]
+, [ 68, "1347F657-61B6-4732-AFD2-1DEC5DAF15A5", 68, 1510268463, "708543", 1510268463, "708543", null, "2016-07-18T00:00:00", "2.39", "2.26", "2.35", "2.37", "2.42", "2.53", "2.32", "2.21", "2.29" ]
+, [ 69, "0D187773-3FBB-4813-87D6-AB79092C8781", 69, 1510268463, "708543", 1510268463, "708543", null, "2016-07-11T00:00:00", "2.41", "2.28", "2.38", "2.39", "2.45", "2.55", "2.35", "2.24", "2.32" ]
+, [ 70, "76FDAEB6-7609-4EB1-A2D5-253AA95371B7", 70, 1510268463, "708543", 1510268463, "708543", null, "2016-07-04T00:00:00", "2.43", "2.31", "2.39", "2.4", "2.46", "2.56", "2.36", "2.27", "2.34" ]
+, [ 71, "676F3A71-5A01-4EFD-B771-9F44736C7D3D", 71, 1510268463, "708543", 1510268463, "708543", null, "2016-06-27T00:00:00", "2.44", "2.32", "2.4", "2.41", "2.46", "2.56", "2.37", "2.29", "2.35" ]
+, [ 72, "6A79DB6F-E6C4-4A3E-9140-E0103B389CE2", 72, 1510268463, "708543", 1510268463, "708543", null, "2016-06-20T00:00:00", "2.45", "2.33", "2.41", "2.41", "2.47", "2.57", "2.38", "2.32", "2.37" ]
+, [ 73, "8A97CE2D-55C6-46B6-9544-5267DA27B819", 73, 1510268463, "708543", 1510268463, "708543", null, "2016-06-13T00:00:00", "2.45", "2.35", "2.42", "2.42", "2.47", "2.57", "2.39", "2.34", "2.38" ]
+, [ 74, "669ED12D-CA85-4165-A9F9-7C5464FE45C3", 74, 1510268463, "708543", 1510268463, "708543", null, "2016-06-06T00:00:00", "2.45", "2.35", "2.42", "2.41", "2.47", "2.56", "2.39", "2.35", "2.38" ]
+, [ 75, "793FCCE4-4A41-4939-AE78-6113ABB43446", 75, 1510268463, "708543", 1510268463, "708543", null, "2016-05-30T00:00:00", "2.44", "2.34", "2.41", "2.4", "2.46", "2.55", "2.39", "2.35", "2.38" ]
+, [ 76, "5576E9DD-9D8D-4701-9ACB-CAD12D05F4A7", 76, 1510268463, "708543", 1510268463, "708543", null, "2016-05-23T00:00:00", "2.41", "2.31", "2.38", "2.38", "2.42", "2.51", "2.37", "2.34", "2.36" ]
+, [ 77, "0FC16C62-E02C-4927-9B71-46C0778B3404", 77, 1510268463, "708543", 1510268463, "708543", null, "2016-05-16T00:00:00", "2.38", "2.29", "2.36", "2.36", "2.39", "2.48", "2.35", "2.32", "2.34" ]
+, [ 78, "4F2A34DB-908F-44EE-B9EA-215DC4A85E0B", 78, 1510268463, "708543", 1510268463, "708543", null, "2016-05-09T00:00:00", "2.38", "2.29", "2.35", "2.36", "2.39", "2.47", "2.35", "2.33", "2.34" ]
+, [ 79, "2EA6553B-00A3-460E-AF1D-995B5143357D", 79, 1510268463, "708543", 1510268463, "708543", null, "2016-05-02T00:00:00", "2.34", "2.25", "2.31", "2.29", "2.35", "2.43", "2.29", "2.27", "2.3" ]
+, [ 80, "A88822C3-2CCD-42CB-8776-58B293B04A83", 80, 1510268463, "708543", 1510268463, "708543", null, "2016-04-25T00:00:00", "2.29", "2.21", "2.26", "2.24", "2.3", "2.38", "2.24", "2.22", "2.24" ]
+, [ 81, "B090D247-D0E9-404A-9B7B-59D35536CA97", 81, 1510268463, "708543", 1510268463, "708543", null, "2016-04-18T00:00:00", "2.24", "2.17", "2.22", "2.2", "2.26", "2.33", "2.19", "2.18", "2.19" ]
+, [ 82, "87CF1F61-093F-4DFE-9F4C-A7AF955070E6", 82, 1510268463, "708543", 1510268463, "708543", null, "2016-04-11T00:00:00", "2.18", "2.12", "2.15", "2.14", "2.19", "2.26", "2.12", "2.12", "2.13" ]
+, [ 83, "23299C4E-D961-41A8-B42C-80644F795ABB", 83, 1510268463, "708543", 1510268463, "708543", null, "2016-04-04T00:00:00", "2.15", "2.11", "2.13", "2.11", "2.16", "2.23", "2.1", "2.1", "2.11" ]
+, [ 84, "678E19C0-5B0D-43DD-A2AE-CAC918C7144C", 84, 1510268463, "708543", 1510268463, "708543", null, "2016-03-28T00:00:00", "2.09", "2.06", "2.08", "2.04", "2.1", "2.16", "2.04", "2.03", "2.06" ]
+, [ 85, "2A2465A2-BF74-4B66-AF98-4D87B0CB8C44", 85, 1510268463, "708543", 1510268463, "708543", null, "2016-03-21T00:00:00", "2.03", "2", "2.01", "1.98", "2.03", "2.09", "1.99", "1.97", "2.04" ]
+, [ 86, "264B0455-ABF8-4AF8-96F0-D52E7975210E", 86, 1510268463, "708543", 1510268463, "708543", null, "2016-03-14T00:00:00", "1.97", "1.94", "1.96", "1.92", "1.97", "2.04", "1.93", "1.9", "1.98" ]
+, [ 87, "E6F651EE-42B9-440B-ADFD-DC9013E359B7", 87, 1510268463, "708543", 1510268463, "708543", null, "2016-03-07T00:00:00", "1.94", "1.9", "1.92", "1.9", "1.94", "2.02", "1.91", "1.85", "1.94" ]
+, [ 88, "BF2238F6-B868-4E0D-8B98-50D8539EED28", 88, 1510268463, "708543", 1510268463, "708543", null, "2016-02-29T00:00:00", "1.95", "1.9", "1.91", "1.92", "1.94", "2.03", "1.91", "1.84", "1.95" ]
+, [ 89, "27E3FD99-5E55-4971-B00E-909EEA0C4EC7", 89, 1510268463, "708543", 1510268463, "708543", null, "2016-02-22T00:00:00", "1.97", "1.92", "1.92", "1.95", "1.97", "2.06", "1.93", "1.85", "1.98" ]
+, [ 90, "0C12E5CE-F114-4B44-9E46-53654FC05373", 90, 1510268463, "708543", 1510268463, "708543", null, "2016-02-15T00:00:00", "2", "1.95", "1.96", "1.98", "2", "2.09", "1.96", "1.87", "2.02" ]
+, [ 91, "6C0FBEB0-78E7-4949-A685-19D83281FC80", 91, 1510268463, "708543", 1510268463, "708543", null, "2016-02-08T00:00:00", "2.04", "1.99", "2.01", "2.02", "2.03", "2.13", "2", "1.91", "2.08" ]
+, [ 92, "CBD5DBCA-9056-485C-960C-261A8A327D6C", 92, 1510268463, "708543", 1510268463, "708543", null, "2016-02-01T00:00:00", "2.08", "2.03", "2.05", "2.06", "2.07", "2.17", "2.03", "1.93", "2.12" ]
+, [ 93, "92C78825-A85B-4B07-9C9C-27C55F279DD5", 93, 1510268463, "708543", 1510268463, "708543", null, "2016-01-25T00:00:00", "2.12", "2.07", "2.09", "2.11", "2.11", "2.2", "2.07", "1.97", "2.16" ]
+, [ 94, "A43CC96F-F277-4D63-A242-773E2EE24D8F", 94, 1510268463, "708543", 1510268463, "708543", null, "2016-01-18T00:00:00", "2.17", "2.12", "2.15", "2.15", "2.17", "2.25", "2.12", "2.01", "2.19" ]
+, [ 95, "0EC0CC5B-66DB-496D-9792-20D1735B3877", 95, 1510268463, "708543", 1510268463, "708543", null, "2016-01-11T00:00:00", "2.21", "2.15", "2.19", "2.18", "2.22", "2.3", "2.16", "2.06", "2.22" ]
+, [ 96, "2A9ABC20-7128-4EF4-BB01-2351C5325BE4", 96, 1510268463, "708543", 1510268463, "708543", null, "2016-01-04T00:00:00", "2.23", "2.17", "2.21", "2.2", "2.24", "2.32", "2.17", "2.08", "2.23" ]
+, [ 97, "3D7D735B-D82D-49AB-8E20-B0BE88C70987", 97, 1510268463, "708543", 1510268463, "708543", null, "2015-12-28T00:00:00", "2.25", "2.18", "2.22", "2.22", "2.26", "2.34", "2.19", "2.1", "2.25" ]
+, [ 98, "10C180A9-E7B2-4B4B-B542-1CED7783C16E", 98, 1510268463, "708543", 1510268463, "708543", null, "2015-12-21T00:00:00", "2.27", "2.2", "2.24", "2.24", "2.28", "2.37", "2.2", "2.13", "2.26" ]
+, [ 99, "A8AE55CB-75B3-486C-814B-811B5B3AE5BE", 99, 1510268463, "708543", 1510268463, "708543", null, "2015-12-14T00:00:00", "2.3", "2.22", "2.27", "2.27", "2.3", "2.4", "2.22", "2.16", "2.27" ]
+, [ 100, "238B6AF7-69CE-4F6D-A568-23946C32BD6A", 100, 1510268463, "708543", 1510268463, "708543", null, "2015-12-07T00:00:00", "2.32", "2.23", "2.29", "2.29", "2.33", "2.42", "2.24", "2.18", "2.28" ]
+, [ 101, "A7B3074D-F613-47ED-A80B-924CB20A543F", 101, 1510268463, "708543", 1510268463, "708543", null, "2015-11-30T00:00:00", "2.32", "2.24", "2.29", "2.3", "2.33", "2.43", "2.25", "2.19", "2.29" ]
+, [ 102, "82027B57-1121-416D-B1EC-76324074DFC2", 102, 1510268463, "708543", 1510268463, "708543", null, "2015-11-23T00:00:00", "2.33", "2.25", "2.3", "2.31", "2.34", "2.44", "2.26", "2.2", "2.3" ]
+, [ 103, "2096C054-7763-43E6-B7E6-7C739338656E", 103, 1510268463, "708543", 1510268463, "708543", null, "2015-11-16T00:00:00", "2.35", "2.27", "2.31", "2.32", "2.36", "2.46", "2.27", "2.22", "2.31" ]
+, [ 104, "577027A2-DD1D-43DD-8756-C32CD04CE037", 104, 1510268463, "708543", 1510268463, "708543", null, "2015-11-09T00:00:00", "2.35", "2.25", "2.28", "2.33", "2.35", "2.46", "2.26", "2.21", "2.3" ]
+, [ 105, "76C606D1-84EA-4D2F-AB3C-C68789031195", 105, 1510268463, "708543", 1510268463, "708543", null, "2015-11-02T00:00:00", "2.34", "2.23", "2.25", "2.35", "2.34", "2.46", "2.24", "2.18", "2.29" ]
+, [ 106, "B89451EC-93B9-4F13-A633-51D3AA2B05F8", 106, 1510268463, "708543", 1510268463, "708543", null, "2015-10-26T00:00:00", "2.36", "2.26", "2.27", "2.37", "2.36", "2.49", "2.26", "2.21", "2.3" ]
+, [ 107, "448D206F-AE0B-4E04-B4C8-F8F95AD99D1E", 107, 1510268463, "708543", 1510268463, "708543", null, "2015-10-19T00:00:00", "2.39", "2.29", "2.3", "2.4", "2.38", "2.53", "2.28", "2.23", "2.32" ]
+, [ 108, "00474A8A-4DBE-462E-A90F-00997633492B", 108, 1510268463, "708543", 1510268463, "708543", null, "2015-10-12T00:00:00", "2.4", "2.3", "2.3", "2.42", "2.4", "2.55", "2.3", "2.23", "2.33" ]
+, [ 109, "8AB097E8-2802-449A-A1FA-1935FB3ECE66", 109, 1510268463, "708543", 1510268463, "708543", null, "2015-10-05T00:00:00", "2.42", "2.31", "2.31", "2.44", "2.41", "2.58", "2.31", "2.24", "2.33" ]
+, [ 110, "DBA6E1D7-6F3C-465C-B1B2-8057E3A4041F", 110, 1510268463, "708543", 1510268463, "708543", null, "2015-09-28T00:00:00", "2.46", "2.34", "2.35", "2.48", "2.45", "2.63", "2.35", "2.27", "2.36" ]
+, [ 111, "65F77793-BD1D-4324-B1C8-EAC9E0673F63", 111, 1510268463, "708543", 1510268463, "708543", null, "2015-09-21T00:00:00", "2.51", "2.38", "2.39", "2.52", "2.51", "2.68", "2.4", "2.31", "2.4" ]
+, [ 112, "29079B7C-07F1-4E57-9CFD-7388B90C811B", 112, 1510268463, "708543", 1510268463, "708543", null, "2015-09-14T00:00:00", "2.57", "2.43", "2.42", "2.56", "2.57", "2.74", "2.46", "2.36", "2.47" ]
+, [ 113, "4D853685-C861-45AB-B3D1-09A099986A38", 113, 1510268463, "708543", 1510268463, "708543", null, "2015-09-07T00:00:00", "2.61", "2.48", "2.45", "2.6", "2.63", "2.78", "2.51", "2.4", "2.54" ]
+, [ 114, "8714E6B8-BBD2-469A-9730-5B6FA7B266F8", 114, 1510268463, "708543", 1510268463, "708543", null, "2015-08-31T00:00:00", "2.66", "2.53", "2.5", "2.64", "2.68", "2.83", "2.58", "2.45", "2.59" ]
+, [ 115, "8E548A7D-213E-4AB5-9E52-8A6778A59F4B", 115, 1510268463, "708543", 1510268463, "708543", null, "2015-08-24T00:00:00", "2.74", "2.61", "2.57", "2.69", "2.77", "2.89", "2.65", "2.52", "2.66" ]
+, [ 116, "E51B3B9D-48D6-42A6-9359-A82B2157B846", 116, 1510268463, "708543", 1510268463, "708543", null, "2015-08-17T00:00:00", "2.78", "2.67", "2.61", "2.71", "2.83", "2.93", "2.7", "2.56", "2.7" ]
+, [ 117, "C2F8EF2E-A217-4D28-A6B2-AACBF05284FF", 117, 1510268463, "708543", 1510268463, "708543", null, "2015-08-10T00:00:00", "2.82", "2.72", "2.66", "2.75", "2.88", "2.97", "2.75", "2.61", "2.76" ]
+, [ 118, "B4793360-DAC7-4AC4-9D16-38A49199A501", 118, 1510268463, "708543", 1510268463, "708543", null, "2015-08-03T00:00:00", "2.86", "2.76", "2.71", "2.77", "2.93", "3.01", "2.79", "2.67", "2.81" ]
+, [ 119, "751BD72B-91B1-42C2-8B9C-3B1E9151E2E5", 119, 1510268463, "708543", 1510268463, "708543", null, "2015-07-27T00:00:00", "2.9", "2.8", "2.76", "2.8", "2.97", "3.04", "2.83", "2.72", "2.84" ]
+, [ 120, "4FA0AE32-0A9C-4DFB-9262-F78248AA7B8D", 120, 1510268463, "708543", 1510268463, "708543", null, "2015-07-20T00:00:00", "2.92", "2.83", "2.8", "2.83", "2.99", "3.06", "2.86", "2.76", "2.85" ]
+, [ 121, "CEA26181-A4F5-4C6D-992D-5268819DFB35", 121, 1510268463, "708543", 1510268463, "708543", null, "2015-07-13T00:00:00", "2.94", "2.85", "2.84", "2.84", "3.01", "3.07", "2.87", "2.79", "2.87" ]
+, [ 122, "4940BA95-8E1F-47D5-8EFA-7033A91BBFDC", 122, 1510268463, "708543", 1510268463, "708543", null, "2015-07-06T00:00:00", "2.95", "2.86", "2.86", "2.85", "3.02", "3.07", "2.88", "2.82", "2.89" ]
+, [ 123, "58AA126F-0552-4CCB-95A8-971F82BBBF5D", 123, 1510268463, "708543", 1510268463, "708543", null, "2015-06-29T00:00:00", "2.95", "2.86", "2.88", "2.86", "3.02", "3.08", "2.88", "2.83", "2.89" ]
+, [ 124, "BD5782FF-D1D7-4993-A882-FCDF251E7A54", 124, 1510268463, "708543", 1510268463, "708543", null, "2015-06-22T00:00:00", "2.95", "2.86", "2.89", "2.86", "3.02", "3.07", "2.88", "2.83", "2.89" ]
+, [ 125, "42AB8276-8838-4E3B-A28B-E303213DB21F", 125, 1510268463, "708543", 1510268463, "708543", null, "2015-06-15T00:00:00", "2.91", "2.82", "2.84", "2.82", "2.97", "3.03", "2.83", "2.78", "2.84" ]
+, [ 126, "2942AF65-9DEF-43D5-90B8-73DA5EDB9A58", 126, 1510268463, "708543", 1510268463, "708543", null, "2015-06-08T00:00:00", "2.88", "2.8", "2.8", "2.79", "2.94", "3.01", "2.8", "2.74", "2.81" ]
+, [ 127, "7D20E269-E0D2-4E2A-B109-C8248B8B3603", 127, 1510268463, "708543", 1510268463, "708543", null, "2015-06-01T00:00:00", "2.87", "2.78", "2.79", "2.77", "2.93", "3", "2.77", "2.71", "2.79" ]
+, [ 128, "00DF934B-785A-4368-9188-13B98E2CFDE4", 128, 1510268463, "708543", 1510268463, "708543", null, "2015-05-25T00:00:00", "2.85", "2.75", "2.79", "2.76", "2.93", "2.98", "2.76", "2.71", "2.78" ]
+, [ 129, "7C3ED228-D06F-427B-B654-878EA4CB4CF2", 129, 1510268463, "708543", 1510268463, "708543", null, "2015-05-18T00:00:00", "2.84", "2.73", "2.78", "2.76", "2.92", "2.96", "2.75", "2.71", "2.78" ]
+, [ 130, "DB9BECA9-B3E7-46E5-81A0-A5F2DA0D049F", 130, 1510268463, "708543", 1510268463, "708543", null, "2015-05-11T00:00:00", "2.82", "2.72", "2.77", "2.74", "2.9", "2.94", "2.74", "2.71", "2.78" ]
+, [ 131, "3AC11158-1AB0-4E45-9B31-8B83C6E5152B", 131, 1510268463, "708543", 1510268463, "708543", null, "2015-05-04T00:00:00", "2.76", "2.67", "2.72", "2.67", "2.83", "2.86", "2.68", "2.66", "2.73" ]
+, [ 132, "531F9F55-F341-4796-9EDC-A2260C6BE84D", 132, 1510268463, "708543", 1510268463, "708543", null, "2015-04-27T00:00:00", "2.7", "2.61", "2.68", "2.62", "2.75", "2.79", "2.64", "2.61", "2.67" ]
+, [ 133, "EDB074A1-7A1F-4F78-AFEE-45A49EB22B1D", 133, 1510268463, "708543", 1510268463, "708543", null, "2015-04-20T00:00:00", "2.6", "2.53", "2.59", "2.56", "2.63", "2.69", "2.58", "2.51", "2.57" ]
+, [ 134, "D26B6B19-A353-476C-8019-038A63867DD1", 134, 1510268463, "708543", 1510268463, "708543", null, "2015-04-13T00:00:00", "2.57", "2.49", "2.55", "2.54", "2.58", "2.65", "2.55", "2.46", "2.53" ]
+, [ 135, "3D910D2D-9D57-4E63-83ED-B9F9FEE087B0", 135, 1510268463, "708543", 1510268463, "708543", null, "2015-04-06T00:00:00", "2.57", "2.5", "2.54", "2.54", "2.58", "2.65", "2.55", "2.45", "2.53" ]
+, [ 136, "44C07B20-7D27-4AF5-82B8-7D4D2DAD5DBB", 136, 1510268463, "708543", 1510268463, "708543", null, "2015-03-30T00:00:00", "2.57", "2.51", "2.54", "2.54", "2.59", "2.66", "2.55", "2.46", "2.54" ]
+, [ 137, "70821A7A-912E-4216-9304-BBAA7D9D5759", 137, 1510268463, "708543", 1510268463, "708543", null, "2015-03-23T00:00:00", "2.59", "2.55", "2.57", "2.56", "2.61", "2.67", "2.57", "2.5", "2.57" ]
+, [ 138, "46AB11FF-5629-4A34-9B2D-2357B0211A80", 138, 1510268463, "708543", 1510268463, "708543", null, "2015-03-16T00:00:00", "2.62", "2.59", "2.62", "2.57", "2.65", "2.68", "2.59", "2.55", "2.62" ]
+, [ 139, "FA291701-4383-4472-AAF9-ED8C5F119913", 139, 1510268463, "708543", 1510268463, "708543", null, "2015-03-09T00:00:00", "2.61", "2.58", "2.63", "2.55", "2.64", "2.67", "2.57", "2.55", "2.61" ]
+, [ 140, "2B3A8C39-5665-415F-BA44-4E97E2F531BE", 140, 1510268463, "708543", 1510268463, "708543", null, "2015-03-02T00:00:00", "2.53", "2.48", "2.55", "2.5", "2.56", "2.58", "2.5", "2.46", "2.53" ]
+, [ 141, "6D2BAD62-4FB9-4205-8396-9F7F2A4D7307", 141, 1510268463, "708543", 1510268463, "708543", null, "2015-02-23T00:00:00", "2.47", "2.42", "2.47", "2.48", "2.49", "2.52", "2.47", "2.39", "2.46" ]
+, [ 142, "21C33AF1-3621-41E6-ABC5-E16A50073F03", 142, 1510268463, "708543", 1510268463, "708543", null, "2015-02-16T00:00:00", "2.44", "2.39", "2.41", "2.47", "2.44", "2.49", "2.47", "2.35", "2.42" ]
+, [ 143, "B8F3C413-06BC-4E20-A6C1-73C2381DB74B", 143, 1510268463, "708543", 1510268463, "708543", null, "2015-02-09T00:00:00", "2.41", "2.38", "2.34", "2.48", "2.38", "2.46", "2.46", "2.27", "2.38" ]
+, [ 144, "80394AAF-C952-4E9F-9F25-FBD6D770CE88", 144, 1510268463, "708543", 1510268463, "708543", null, "2015-02-02T00:00:00", "2.41", "2.39", "2.3", "2.51", "2.36", "2.46", "2.49", "2.23", "2.4" ]
+, [ 145, "E2B4C380-DE21-4414-A4DE-DD3F39A043B6", 145, 1510268463, "708543", 1510268463, "708543", null, "2015-01-26T00:00:00", "2.47", "2.45", "2.34", "2.58", "2.4", "2.5", "2.56", "2.29", "2.47" ]
+, [ 146, "0176D5A1-C95A-4071-8DDC-75041A855FB0", 146, 1510268463, "708543", 1510268463, "708543", null, "2015-01-19T00:00:00", "2.57", "2.54", "2.44", "2.67", "2.51", "2.6", "2.66", "2.4", "2.57" ]
+, [ 147, "CD23050D-DB54-41F7-81F8-3E28EBEAD804", 147, 1510268463, "708543", 1510268463, "708543", null, "2015-01-12T00:00:00", "2.67", "2.64", "2.54", "2.76", "2.62", "2.71", "2.75", "2.51", "2.67" ]
+, [ 148, "2F380CCE-12DD-4A1F-8401-1225F483D872", 148, 1510268463, "708543", 1510268463, "708543", null, "2015-01-05T00:00:00", "2.76", "2.73", "2.66", "2.83", "2.72", "2.8", "2.83", "2.61", "2.78" ]
+, [ 149, "7AAE5B4C-85E5-410B-90F2-1B1ACF04A18D", 149, 1510268463, "708543", 1510268463, "708543", null, "2014-12-29T00:00:00", "2.84", "2.8", "2.76", "2.89", "2.8", "2.88", "2.9", "2.69", "2.86" ]
+, [ 150, "68520CD3-06F6-424B-A1C0-896E97CCCF8F", 150, 1510268463, "708543", 1510268463, "708543", null, "2014-12-22T00:00:00", "2.93", "2.88", "2.85", "2.96", "2.9", "2.98", "2.97", "2.77", "2.93" ]
+, [ 151, "80557DF5-6135-4208-B9C9-6EC4240764D5", 151, 1510268463, "708543", 1510268463, "708543", null, "2014-12-15T00:00:00", "3.03", "2.96", "2.96", "3.07", "3.01", "3.09", "3.05", "2.86", "3" ]
+, [ 152, "046106A6-5CC6-447F-84A4-B8C36A1F4244", 152, 1510268463, "708543", 1510268463, "708543", null, "2014-12-08T00:00:00", "3.12", "3.03", "3.04", "3.17", "3.1", "3.2", "3.13", "2.94", "3.12" ]
+, [ 153, "5167B21E-060F-43C1-BAF1-8574ABA8F947", 153, 1510268463, "708543", 1510268463, "708543", null, "2014-12-01T00:00:00", "3.18", "3.08", "3.09", "3.25", "3.16", "3.26", "3.18", "3", "3.21" ]
+, [ 154, "E743A985-4743-43DA-B06F-A9876E7D88A8", 154, 1510268463, "708543", 1510268463, "708543", null, "2014-11-24T00:00:00", "3.22", "3.11", "3.13", "3.31", "3.2", "3.29", "3.23", "3.05", "3.25" ]
+, [ 155, "3CE1D289-7A11-4FFB-BF8E-F9B9C81A8BD8", 155, 1510268463, "708543", 1510268463, "708543", null, "2014-11-17T00:00:00", "3.27", "3.16", "3.18", "3.35", "3.25", "3.34", "3.27", "3.11", "3.3" ]
+, [ 156, "147D8634-6A5C-41AE-9F2F-EE81AEEE8162", 156, 1510268463, "708543", 1510268463, "708543", null, "2014-11-10T00:00:00", "3.34", "3.25", "3.26", "3.43", "3.32", "3.4", "3.34", "3.2", "3.38" ]
+, [ 157, "66CE2675-8E9B-4B4F-8674-9E147C48804F", 157, 1510268463, "708543", 1510268463, "708543", null, "2014-11-03T00:00:00", "3.38", "3.29", "3.29", "3.46", "3.36", "3.43", "3.37", "3.24", "3.41" ]
+, [ 158, "3E5A8413-11CC-4CED-8A1E-9585854F7EF3", 158, 1510268463, "708543", 1510268463, "708543", null, "2014-10-27T00:00:00", "3.43", "3.34", "3.35", "3.51", "3.43", "3.49", "3.42", "3.32", "3.47" ]
+, [ 159, "163755E4-FD84-4378-B1FC-BB80CD410EB0", 159, 1510268463, "708543", 1510268463, "708543", null, "2014-10-20T00:00:00", "3.49", "3.4", "3.41", "3.55", "3.48", "3.55", "3.46", "3.38", "3.52" ]
+, [ 160, "BC187877-9AF0-4E74-BC8B-DD3B9BCBFCA9", 160, 1510268463, "708543", 1510268463, "708543", null, "2014-10-13T00:00:00", "3.56", "3.46", "3.47", "3.6", "3.56", "3.63", "3.52", "3.45", "3.58" ]
+, [ 161, "5B013FEA-5AEB-4FF2-9D49-E79B9AA23B4C", 161, 1510268463, "708543", 1510268463, "708543", null, "2014-10-06T00:00:00", "3.6", "3.51", "3.53", "3.63", "3.6", "3.68", "3.56", "3.48", "3.61" ]
+, [ 162, "D721E48C-E57A-4916-9ADD-CA03AED3C290", 162, 1510268463, "708543", 1510268463, "708543", null, "2014-09-29T00:00:00", "3.62", "3.53", "3.52", "3.65", "3.62", "3.7", "3.57", "3.49", "3.63" ]
+, [ 163, "4EA3E6BF-87F0-4AF5-879D-EB6751737A58", 163, 1510268463, "708543", 1510268463, "708543", null, "2014-09-22T00:00:00", "3.65", "3.55", "3.55", "3.67", "3.66", "3.73", "3.6", "3.52", "3.65" ]
+, [ 164, "4E94639D-B9F7-4AB1-BDCA-B21A3F00053E", 164, 1510268463, "708543", 1510268463, "708543", null, "2014-09-15T00:00:00", "3.68", "3.59", "3.59", "3.7", "3.7", "3.77", "3.63", "3.55", "3.67" ]
+, [ 165, "1CA383EC-F0E2-48E2-9F41-2AAC447A6485", 165, 1510268463, "708543", 1510268463, "708543", null, "2014-09-08T00:00:00", "3.7", "3.6", "3.6", "3.7", "3.72", "3.78", "3.64", "3.56", "3.68" ]
+, [ 166, "54E63115-292D-48C4-8F85-58B259087B7C", 166, 1510268463, "708543", 1510268463, "708543", null, "2014-09-01T00:00:00", "3.71", "3.61", "3.59", "3.72", "3.73", "3.79", "3.65", "3.57", "3.7" ]
+, [ 167, "1B436C4D-B107-4E66-86EB-0572540DC6B8", 167, 1510268463, "708543", 1510268463, "708543", null, "2014-08-25T00:00:00", "3.73", "3.62", "3.6", "3.74", "3.76", "3.82", "3.67", "3.58", "3.73" ]
+, [ 168, "EBD8A60B-3926-4007-94E6-E2071189D47D", 168, 1510268463, "708543", 1510268463, "708543", null, "2014-08-18T00:00:00", "3.76", "3.65", "3.64", "3.75", "3.81", "3.86", "3.7", "3.62", "3.76" ]
+, [ 169, "CE0AAA5D-31FF-4B16-9B28-F03BFA393CBC", 169, 1510268463, "708543", 1510268463, "708543", null, "2014-08-11T00:00:00", "3.8", "3.68", "3.67", "3.77", "3.85", "3.9", "3.73", "3.66", "3.78" ]
+, [ 170, "302265FF-6F82-4873-B58D-2191EE3FA604", 170, 1510268463, "708543", 1510268463, "708543", null, "2014-08-04T00:00:00", "3.84", "3.72", "3.71", "3.8", "3.89", "3.94", "3.76", "3.7", "3.8" ]
+, [ 171, "94486615-6BF0-4D48-A5BF-AD2A6D07DC6A", 171, 1510268463, "708543", 1510268463, "708543", null, "2014-07-28T00:00:00", "3.86", "3.75", "3.75", "3.81", "3.93", "3.98", "3.78", "3.73", "3.82" ]
+, [ 172, "2B33D595-81FE-4DA3-A903-1A8F0FC8FD0C", 172, 1510268463, "708543", 1510268463, "708543", null, "2014-07-21T00:00:00", "3.89", "3.77", "3.78", "3.83", "3.97", "4.01", "3.81", "3.77", "3.84" ]
+, [ 173, "3CA2E380-1A0E-48B6-B736-83F836E5F062", 173, 1510268463, "708543", 1510268463, "708543", null, "2014-07-14T00:00:00", "3.92", "3.8", "3.81", "3.85", "4.01", "4.05", "3.83", "3.8", "3.86" ]
+, [ 174, "C35DD909-C432-47FF-84DF-A71AF5813C61", 174, 1510268463, "708543", 1510268463, "708543", null, "2014-07-07T00:00:00", "3.93", "3.81", "3.84", "3.85", "4.03", "4.06", "3.84", "3.82", "3.88" ]
+, [ 175, "92BAF34A-FBAC-405F-A9CB-22ACE351D071", 175, 1510268463, "708543", 1510268463, "708543", null, "2014-06-30T00:00:00", "3.93", "3.81", "3.84", "3.85", "4.03", "4.06", "3.84", "3.82", "3.88" ]
+, [ 176, "2E8102F4-92FF-4B37-BFDD-0EDC5168581D", 176, 1510268463, "708543", 1510268463, "708543", null, "2014-06-23T00:00:00", "3.91", "3.8", "3.82", "3.83", "3.99", "4.04", "3.82", "3.79", "3.85" ]
+, [ 177, "1607D308-5C52-42B4-B730-2E5FA587651C", 177, 1510268463, "708543", 1510268463, "708543", null, "2014-06-16T00:00:00", "3.88", "3.77", "3.79", "3.82", "3.94", "3.99", "3.8", "3.76", "3.84" ]
+, [ 178, "4918EE6A-6225-4AF7-968F-4914651611DC", 178, 1510268463, "708543", 1510268463, "708543", null, "2014-06-09T00:00:00", "3.88", "3.78", "3.79", "3.82", "3.93", "3.99", "3.81", "3.77", "3.85" ]
+, [ 179, "9280648B-CFC6-4E50-B9A9-BF8A524E2D6E", 179, 1510268463, "708543", 1510268463, "708543", null, "2014-06-02T00:00:00", "3.88", "3.79", "3.8", "3.83", "3.93", "3.99", "3.81", "3.78", "3.85" ]
+, [ 180, "B5276790-B8CD-481B-B132-142FD9A518D9", 180, 1510268463, "708543", 1510268463, "708543", null, "2014-05-26T00:00:00", "3.89", "3.8", "3.8", "3.83", "3.93", "3.99", "3.82", "3.79", "3.86" ]
+, [ 181, "EDC74EF3-BFE1-4A22-8542-734FAFFEA8D2", 181, 1510268463, "708543", 1510268463, "708543", null, "2014-05-19T00:00:00", "3.89", "3.8", "3.82", "3.84", "3.94", "4", "3.83", "3.81", "3.87" ]
+, [ 182, "0396808F-99BC-4ADD-B649-ADFD98698F1E", 182, 1510268463, "708543", 1510268463, "708543", null, "2014-05-12T00:00:00", "3.91", "3.81", "3.84", "3.86", "3.97", "4.01", "3.84", "3.84", "3.88" ]
+, [ 183, "BA1CD490-8DD8-4EB3-A646-01E9CFBBC8E7", 183, 1510268463, "708543", 1510268463, "708543", null, "2014-05-05T00:00:00", "3.92", "3.82", "3.86", "3.86", "3.99", "4.02", "3.85", "3.86", "3.9" ]
+, [ 184, "58F3774A-A239-4848-AB18-4BC98E34848A", 184, 1510268463, "708543", 1510268463, "708543", null, "2014-04-28T00:00:00", "3.89", "3.8", "3.85", "3.85", "3.94", "3.98", "3.83", "3.83", "3.88" ]
+, [ 185, "6213C7D0-5E13-471C-8E5B-D632734EFA21", 185, 1510268463, "708543", 1510268463, "708543", null, "2014-04-21T00:00:00", "3.83", "3.77", "3.81", "3.8", "3.84", "3.89", "3.78", "3.79", "3.82" ]
+, [ 186, "E3E822BE-628A-4E0D-B7FE-595C89C2A2EB", 186, 1510268463, "708543", 1510268463, "708543", null, "2014-04-14T00:00:00", "3.79", "3.72", "3.77", "3.76", "3.8", "3.85", "3.75", "3.75", "3.8" ]
+, [ 187, "C1519F02-FE6E-4B8C-8CBE-0AAFA7259559", 187, 1510268463, "708543", 1510268463, "708543", null, "2014-04-07T00:00:00", "3.78", "3.7", "3.76", "3.74", "3.79", "3.84", "3.74", "3.74", "3.79" ]
+, [ 188, "A0FD35AB-F35A-4FC4-8C16-37E7641B7BB5", 188, 1510268463, "708543", 1510268463, "708543", null, "2014-03-31T00:00:00", "3.77", "3.7", "3.76", "3.74", "3.79", "3.83", "3.74", "3.74", "3.79" ]
+, [ 189, "B60D7246-BA9A-4139-86F5-13807EC1D6C9", 189, 1510268463, "708543", 1510268463, "708543", null, "2014-03-24T00:00:00", "3.77", "3.71", "3.76", "3.75", "3.78", "3.83", "3.74", "3.75", "3.79" ]
+, [ 190, "764BAAC0-8776-42A7-8B35-504A7FAAED22", 190, 1510268463, "708543", 1510268463, "708543", null, "2014-03-17T00:00:00", "3.77", "3.71", "3.76", "3.76", "3.78", "3.82", "3.75", "3.76", "3.79" ]
+, [ 191, "1B792E97-B2D5-4946-A142-D03F1DE29565", 191, 1510268463, "708543", 1510268463, "708543", null, "2014-03-10T00:00:00", "3.76", "3.71", "3.75", "3.75", "3.76", "3.8", "3.73", "3.75", "3.78" ]
+, [ 192, "AF7D166D-4DD7-476D-8F12-77EA18FC194E", 192, 1510268463, "708543", 1510268463, "708543", null, "2014-03-03T00:00:00", "3.73", "3.69", "3.72", "3.72", "3.72", "3.77", "3.7", "3.72", "3.77" ]
+, [ 193, "D08E3EA9-7E00-4599-91BE-EFFC6C113558", 193, 1510268463, "708543", 1510268463, "708543", null, "2014-02-24T00:00:00", "3.7", "3.65", "3.69", "3.68", "3.69", "3.74", "3.67", "3.68", "3.73" ]
+, [ 194, "F04063E6-4D5C-4251-B99D-CE07301E68EE", 194, 1510268463, "708543", 1510268463, "708543", null, "2014-02-17T00:00:00", "3.65", "3.59", "3.64", "3.64", "3.63", "3.69", "3.62", "3.6", "3.69" ]
+, [ 195, "0086CCFF-ECA0-4F7F-8B6C-7793970E5A01", 195, 1510268463, "708543", 1510268463, "708543", null, "2014-02-10T00:00:00", "3.63", "3.57", "3.62", "3.63", "3.61", "3.67", "3.61", "3.56", "3.66" ]
+, [ 196, "7244B9F3-460B-495E-BE9A-72FF3FC126A9", 196, 1510268463, "708543", 1510268463, "708543", null, "2014-02-03T00:00:00", "3.63", "3.58", "3.63", "3.64", "3.61", "3.68", "3.62", "3.57", "3.66" ]
+, [ 197, "CF9913FF-F961-4962-AC2D-5B1014178699", 197, 1510268463, "708543", 1510268463, "708543", null, "2014-01-27T00:00:00", "3.64", "3.59", "3.64", "3.65", "3.63", "3.69", "3.63", "3.59", "3.66" ]
+, [ 198, "BA70F8B7-42F7-4653-890D-28E282FD5F0B", 198, 1510268463, "708543", 1510268463, "708543", null, "2014-01-20T00:00:00", "3.67", "3.62", "3.66", "3.67", "3.66", "3.72", "3.65", "3.62", "3.68" ]
+, [ 199, "2CD8A7EC-0BD0-42AA-B204-E781A573B557", 199, 1510268463, "708543", 1510268463, "708543", null, "2014-01-13T00:00:00", "3.69", "3.63", "3.69", "3.68", "3.7", "3.75", "3.67", "3.65", "3.7" ]
+, [ 200, "8CE533A3-7C77-48A1-B6E8-4EDE48D0A361", 200, 1510268463, "708543", 1510268463, "708543", null, "2014-01-06T00:00:00", "3.7", "3.65", "3.71", "3.68", "3.71", "3.77", "3.67", "3.66", "3.7" ]
+, [ 201, "C3531D88-3513-4722-98F1-8C034A9BEBC2", 201, 1510268463, "708543", 1510268463, "708543", null, "2013-12-30T00:00:00", "3.68", "3.62", "3.7", "3.67", "3.68", "3.75", "3.66", "3.65", "3.68" ]
+, [ 202, "E8FB7833-E995-46D7-A858-52A08129445F", 202, 1510268463, "708543", 1510268463, "708543", null, "2013-12-23T00:00:00", "3.67", "3.6", "3.67", "3.65", "3.67", "3.72", "3.65", "3.64", "3.67" ]
+, [ 203, "1AEDA9C9-0B81-4136-9DC9-C1C12995F943", 203, 1510268463, "708543", 1510268463, "708543", null, "2013-12-16T00:00:00", "3.66", "3.6", "3.68", "3.65", "3.66", "3.72", "3.64", "3.64", "3.66" ]
+, [ 204, "03C60B8D-BFD2-4210-A20A-852B6F967C8D", 204, 1510268463, "708543", 1510268463, "708543", null, "2013-12-09T00:00:00", "3.65", "3.58", "3.66", "3.63", "3.64", "3.7", "3.63", "3.62", "3.64" ]
+, [ 205, "F34F667B-A60C-43F1-9D56-3F7987FD9824", 205, 1510268463, "708543", 1510268463, "708543", null, "2013-12-02T00:00:00", "3.64", "3.57", "3.64", "3.62", "3.63", "3.69", "3.62", "3.6", "3.63" ]
+, [ 206, "E08BEF50-5F85-4B81-B5DF-502A69E34646", 206, 1510268463, "708543", 1510268463, "708543", null, "2013-11-25T00:00:00", "3.58", "3.52", "3.57", "3.58", "3.58", "3.64", "3.57", "3.53", "3.59" ]
+, [ 207, "5A217338-1F64-43A2-B8AB-788EF72D0109", 207, 1510268463, "708543", 1510268463, "708543", null, "2013-11-18T00:00:00", "3.54", "3.47", "3.51", "3.55", "3.53", "3.6", "3.55", "3.46", "3.56" ]
+, [ 208, "03754183-205F-45C8-8709-B4B32A859AF5", 208, 1510268463, "708543", 1510268463, "708543", null, "2013-11-11T00:00:00", "3.55", "3.48", "3.51", "3.57", "3.53", "3.62", "3.57", "3.47", "3.58" ]
+, [ 209, "58CF34F9-5A63-4CBD-87DA-EB4D2FF3574E", 209, 1510268463, "708543", 1510268463, "708543", null, "2013-11-04T00:00:00", "3.58", "3.51", "3.54", "3.6", "3.56", "3.64", "3.59", "3.49", "3.6" ]
+, [ 210, "68294B46-25CA-4073-AABB-2AB03D462A9C", 210, 1510268463, "708543", 1510268463, "708543", null, "2013-10-28T00:00:00", "3.61", "3.53", "3.57", "3.64", "3.58", "3.67", "3.62", "3.52", "3.63" ]
+, [ 211, "B70EA510-B9CB-4525-B384-C48185865E71", 211, 1510268463, "708543", 1510268463, "708543", null, "2013-10-21T00:00:00", "3.64", "3.55", "3.59", "3.67", "3.6", "3.7", "3.65", "3.53", "3.66" ]
+, [ 212, "22EB94A1-9354-4657-BAF8-789EDDB26C14", 212, 1510268463, "708543", 1510268463, "708543", null, "2013-10-14T00:00:00", "3.66", "3.58", "3.62", "3.7", "3.62", "3.73", "3.68", "3.56", "3.7" ]
+, [ 213, "9F966923-D12C-4487-AB59-6AD6DFDDA88A", 213, 1510268463, "708543", 1510268463, "708543", null, "2013-10-07T00:00:00", "3.7", "3.62", "3.66", "3.74", "3.67", "3.77", "3.71", "3.6", "3.72" ]
+, [ 214, "CD87E8DB-3437-4B50-AD50-8C22660AB7FC", 214, 1510268463, "708543", 1510268463, "708543", null, "2013-09-30T00:00:00", "3.76", "3.66", "3.7", "3.78", "3.75", "3.83", "3.75", "3.65", "3.75" ]
+, [ 215, "A229A604-805B-4FB0-9D28-7A0A8426B8D1", 215, 1510268463, "708543", 1510268463, "708543", null, "2013-09-23T00:00:00", "3.81", "3.71", "3.76", "3.83", "3.82", "3.89", "3.79", "3.73", "3.8" ]
+, [ 216, "9CED7E65-FFBA-4AE7-8007-74B4E4374D1D", 216, 1510268463, "708543", 1510268463, "708543", null, "2013-09-16T00:00:00", "3.85", "3.75", "3.8", "3.85", "3.87", "3.93", "3.81", "3.77", "3.83" ]
+, [ 217, "7FE2215F-1EA8-4972-B884-E120CCBF9A52", 217, 1510268463, "708543", 1510268463, "708543", null, "2013-09-09T00:00:00", "3.87", "3.77", "3.84", "3.87", "3.91", "3.96", "3.83", "3.79", "3.84" ]
+, [ 218, "EB81BFA8-2368-4249-AE68-5BA828083A79", 218, 1510268463, "708543", 1510268463, "708543", null, "2013-09-02T00:00:00", "3.85", "3.74", "3.81", "3.84", "3.9", "3.94", "3.81", "3.75", "3.81" ]
+, [ 219, "0A747DF2-CBD1-42EC-816F-6782EF5FEA56", 219, 1510268463, "708543", 1510268463, "708543", null, "2013-08-26T00:00:00", "3.84", "3.72", "3.78", "3.82", "3.89", "3.94", "3.79", "3.72", "3.8" ]
+, [ 220, "B3A8425E-E925-4D7B-9E56-2C0DD03DDFD6", 220, 1510268463, "708543", 1510268463, "708543", null, "2013-08-19T00:00:00", "3.86", "3.75", "3.79", "3.83", "3.91", "3.95", "3.8", "3.74", "3.81" ]
+, [ 221, "19D1F937-8665-427D-A3B9-26696CA4AAEC", 221, 1510268463, "708543", 1510268463, "708543", null, "2013-08-12T00:00:00", "3.89", "3.79", "3.83", "3.85", "3.95", "3.99", "3.82", "3.78", "3.84" ]
+, [ 222, "39AFFF72-ABBA-4E39-92BD-082D02D56701", 222, 1510268463, "708543", 1510268463, "708543", null, "2013-08-05T00:00:00", "3.91", "3.81", "3.86", "3.86", "3.98", "4.02", "3.84", "3.81", "3.85" ]
+, [ 223, "31F1F4D3-869F-4825-ABC6-771E4E10773F", 223, 1510268463, "708543", 1510268463, "708543", null, "2013-07-29T00:00:00", "3.93", "3.83", "3.88", "3.86", "4", "4.04", "3.85", "3.84", "3.87" ]
+, [ 224, "166B2DDB-B1D3-4C20-A6BB-B631A1A86BE6", 224, 1510268463, "708543", 1510268463, "708543", null, "2013-07-22T00:00:00", "3.9", "3.81", "3.85", "3.82", "3.97", "4.01", "3.8", "3.8", "3.84" ]
+, [ 225, "A9AB5E78-8EAE-4E71-9237-3DD66396833C", 225, 1510268463, "708543", 1510268463, "708543", null, "2013-07-15T00:00:00", "3.76", "3.66", "3.71", "3.73", "3.82", "3.87", "3.69", "3.65", "3.71" ]
+, [ 226, "BF2A74AA-96F0-4523-9DAC-6EC2AF652F82", 226, 1510268463, "708543", 1510268463, "708543", null, "2013-07-08T00:00:00", "3.71", "3.59", "3.63", "3.71", "3.77", "3.82", "3.66", "3.59", "3.67" ]
+, [ 227, "6B87FEFD-8071-4D83-B1C0-5E07AA48817A", 227, 1510268463, "708543", 1510268463, "708543", null, "2013-07-01T00:00:00", "3.73", "3.61", "3.65", "3.73", "3.78", "3.83", "3.68", "3.62", "3.69" ]
+, [ 228, "9EA7C3E3-C64B-420E-8FEA-6CB7409E1703", 228, 1510268463, "708543", 1510268463, "708543", null, "2013-06-24T00:00:00", "3.75", "3.62", "3.68", "3.74", "3.8", "3.85", "3.7", "3.64", "3.71" ]
+, [ 229, "159017C4-3ACD-4A22-8BBA-6274940404D0", 229, 1510268463, "708543", 1510268463, "708543", null, "2013-06-17T00:00:00", "3.74", "3.62", "3.67", "3.75", "3.8", "3.85", "3.69", "3.63", "3.7" ]
+, [ 230, "66563AA3-1C89-4CF0-9A8B-28C23A79C9C7", 230, 1510268463, "708543", 1510268463, "708543", null, "2013-06-10T00:00:00", "3.74", "3.62", "3.66", "3.75", "3.8", "3.84", "3.7", "3.62", "3.7" ]
+, [ 231, "A3494FDF-F210-4F90-8DFA-630EE77D3D1B", 231, 1510268463, "708543", 1510268463, "708543", null, "2013-06-03T00:00:00", "3.75", "3.63", "3.67", "3.76", "3.8", "3.85", "3.71", "3.65", "3.71" ]
+, [ 232, "7E4A39BD-A0BE-4794-A655-E19A0F2AE950", 232, 1510268463, "708543", 1510268463, "708543", null, "2013-05-27T00:00:00", "3.75", "3.63", "3.68", "3.75", "3.8", "3.85", "3.71", "3.65", "3.72" ]
+, [ 233, "82BC024C-BAEB-49B3-BD10-F07EA2F22343", 233, 1510268463, "708543", 1510268463, "708543", null, "2013-05-20T00:00:00", "3.73", "3.61", "3.67", "3.73", "3.78", "3.83", "3.7", "3.62", "3.69" ]
+, [ 234, "05BFD61E-CC8C-4F77-B179-D05A121BE562", 234, 1510268463, "708543", 1510268463, "708543", null, "2013-05-13T00:00:00", "3.72", "3.59", "3.64", "3.73", "3.76", "3.81", "3.7", "3.58", "3.67" ]
+, [ 235, "C403680F-2A2A-4F7E-8598-C208855628CB", 235, 1510268463, "708543", 1510268463, "708543", null, "2013-05-06T00:00:00", "3.71", "3.58", "3.64", "3.74", "3.74", "3.79", "3.71", "3.57", "3.67" ]
+, [ 236, "13C81C7F-CCEA-4B0F-9136-3EC54FA0B81C", 236, 1510268463, "708543", 1510268463, "708543", null, "2013-04-29T00:00:00", "3.73", "3.61", "3.66", "3.76", "3.74", "3.8", "3.74", "3.59", "3.7" ]
+, [ 237, "0A7A27C1-0921-4663-B353-C89CFACF3091", 237, 1510268463, "708543", 1510268463, "708543", null, "2013-04-22T00:00:00", "3.77", "3.66", "3.69", "3.8", "3.77", "3.84", "3.77", "3.63", "3.75" ]
+, [ 238, "B7A88445-EB2D-47D5-AE0F-B9AF64E9C1EE", 238, 1510268463, "708543", 1510268463, "708543", null, "2013-04-15T00:00:00", "3.82", "3.73", "3.74", "3.85", "3.83", "3.91", "3.81", "3.69", "3.82" ]
+, [ 239, "6B0F3F7A-3C09-4B4E-8BF8-85E09106BF06", 239, 1510268463, "708543", 1510268463, "708543", null, "2013-04-08T00:00:00", "3.88", "3.78", "3.79", "3.89", "3.9", "3.97", "3.85", "3.75", "3.88" ]
+, [ 240, "23C5E425-38A9-42C4-B806-1FD8E760A20C", 240, 1510268463, "708543", 1510268463, "708543", null, "2013-04-01T00:00:00", "3.91", "3.81", "3.82", "3.91", "3.93", "4", "3.88", "3.78", "3.91" ]
+, [ 241, "96ACA29E-D119-45E3-8A8F-577A7788D8D9", 241, 1510268463, "708543", 1510268463, "708543", null, "2013-03-25T00:00:00", "3.93", "3.84", "3.85", "3.93", "3.96", "4.02", "3.9", "3.81", "3.93" ]
+, [ 242, "8F57E199-2198-4F39-99CC-DBE466852EC9", 242, 1510268463, "708543", 1510268463, "708543", null, "2013-03-18T00:00:00", "3.95", "3.87", "3.88", "3.95", "3.97", "4.04", "3.91", "3.83", "3.94" ]
+, [ 243, "28A7AC67-0F23-4430-9420-FB3FDB07E891", 243, 1510268463, "708543", 1510268463, "708543", null, "2013-03-11T00:00:00", "3.97", "3.9", "3.91", "3.97", "4", "4.05", "3.93", "3.87", "3.95" ]
+, [ 244, "6B4A68FA-C55D-441D-8037-80E388D7E00E", 244, 1510268463, "708543", 1510268463, "708543", null, "2013-03-04T00:00:00", "4", "3.94", "3.95", "3.99", "4.03", "4.08", "3.96", "3.92", "3.99" ]
+, [ 245, "76A51FDB-699A-4F47-B0AC-61B76412615A", 245, 1510268463, "708543", 1510268463, "708543", null, "2013-02-25T00:00:00", "4.01", "3.95", "3.97", "3.98", "4.04", "4.09", "3.95", "3.93", "4" ]
+, [ 246, "DEE78987-92BD-4F32-90B4-029848305810", 246, 1510268463, "708543", 1510268463, "708543", null, "2013-02-18T00:00:00", "3.95", "3.9", "3.92", "3.92", "4", "4.04", "3.89", "3.88", "3.96" ]
+, [ 247, "0EA0DB09-187E-47E7-B85C-6250EC0A7835", 247, 1510268463, "708543", 1510268463, "708543", null, "2013-02-11T00:00:00", "3.91", "3.86", "3.9", "3.88", "3.96", "4", "3.84", "3.85", "3.93" ]
+, [ 248, "5B0D9D11-8449-4795-B40D-63C69FA9B8E9", 248, 1510268463, "708543", 1510268463, "708543", null, "2013-02-04T00:00:00", "3.81", "3.75", "3.8", "3.78", "3.84", "3.89", "3.74", "3.74", "3.83" ]
+, [ 249, "3E80D750-EFFC-4A9D-BEA1-75743C890546", 249, 1510268463, "708543", 1510268463, "708543", null, "2013-01-28T00:00:00", "3.73", "3.64", "3.7", "3.73", "3.75", "3.82", "3.68", "3.66", "3.76" ]
+, [ 250, "938D1D4C-89F7-4FAD-AC6F-BF35DEAEF3F6", 250, 1510268463, "708543", 1510268463, "708543", null, "2013-01-21T00:00:00", "3.73", "3.63", "3.69", "3.73", "3.74", "3.82", "3.68", "3.66", "3.76" ]
+, [ 251, "45FB06D0-14DD-4492-9922-EC9BF458D753", 251, 1510268463, "708543", 1510268463, "708543", null, "2013-01-14T00:00:00", "3.74", "3.65", "3.7", "3.74", "3.77", "3.84", "3.7", "3.68", "3.76" ]
+, [ 252, "E4195F57-F86F-4BA2-80FE-5F5CB4E5E2CF", 252, 1510268463, "708543", 1510268463, "708543", null, "2013-01-07T00:00:00", "3.74", "3.63", "3.68", "3.73", "3.77", "3.84", "3.69", "3.66", "3.75" ]
+, [ 253, "B3635C83-12E3-4DA7-A1D5-04E6B01D974A", 253, 1510268463, "708543", 1510268463, "708543", null, "2012-12-31T00:00:00", "3.73", "3.61", "3.65", "3.71", "3.77", "3.84", "3.68", "3.62", "3.73" ]
+, [ 254, "9F86A4D6-D4E9-4EA4-BE24-8BFE52569D5A", 254, 1510268463, "708543", 1510268463, "708543", null, "2012-12-24T00:00:00", "3.74", "3.61", "3.63", "3.72", "3.77", "3.85", "3.69", "3.61", "3.73" ]
+, [ 255, "9DA269C4-8F8D-41F8-95CE-B432889C898F", 255, 1510268463, "708543", 1510268463, "708543", null, "2012-12-17T00:00:00", "3.78", "3.65", "3.66", "3.77", "3.81", "3.88", "3.73", "3.66", "3.77" ]
+, [ 256, "95E055FA-CE2D-4B59-80A7-E6820D814AF2", 256, 1510268463, "708543", 1510268463, "708543", null, "2012-12-10T00:00:00", "3.84", "3.71", "3.73", "3.83", "3.88", "3.94", "3.8", "3.72", "3.82" ]
+, [ 257, "6F99D054-213C-46B5-A295-AEE4C24C8C53", 257, 1510268463, "708543", 1510268463, "708543", null, "2012-12-03T00:00:00", "3.88", "3.75", "3.76", "3.86", "3.94", "3.98", "3.84", "3.76", "3.86" ]
+, [ 258, "CE4ACFCC-F655-4E94-A3DB-87F9A018D1F9", 258, 1510268463, "708543", 1510268463, "708543", null, "2012-11-26T00:00:00", "3.92", "3.77", "3.79", "3.88", "3.99", "4.03", "3.86", "3.78", "3.88" ]
+, [ 259, "2D4406A6-9BF0-4B3E-9AB6-70EF5274A625", 259, 1510268463, "708543", 1510268463, "708543", null, "2012-11-19T00:00:00", "3.96", "3.8", "3.81", "3.89", "4.08", "4.12", "3.88", "3.79", "3.89" ]
+, [ 260, "D8E4E4C6-8D75-436E-A2EB-EA765CAB793A", 260, 1510268463, "708543", 1510268463, "708543", null, "2012-11-12T00:00:00", "3.99", "3.82", "3.85", "3.92", "4.13", "4.14", "3.91", "3.82", "3.91" ]
+, [ 261, "5BB72804-FE33-4BA0-84E0-0687D70C59C1", 261, 1510268463, "708543", 1510268463, "708543", null, "2012-11-05T00:00:00", "3.94", "3.84", "3.9", "3.96", "3.94", "4", "3.94", "3.86", "3.93" ]
+, [ 262, "D2C44844-7288-423E-A8B0-8CC5EE2B509E", 262, 1510268463, "708543", 1510268463, "708543", null, "2012-10-29T00:00:00", "3.97", "3.9", "3.96", "4", "3.92", "4.02", "3.98", "3.92", "3.98" ]
+, [ 263, "837117EB-3794-4A1D-B976-08A607B5E397", 263, 1510268463, "708543", 1510268463, "708543", null, "2012-10-22T00:00:00", "4.06", "4", "4.03", "4.08", "4.04", "4.13", "4.04", "4", "4.06" ]
+, [ 264, "2E531D7A-60AF-4E46-80F5-2206FB4BF183", 264, 1510268463, "708543", 1510268463, "708543", null, "2012-10-15T00:00:00", "4.11", "4.05", "4.09", "4.11", "4.12", "4.2", "4.07", "4.05", "4.1" ]
+, [ 265, "4AF4A7A2-4DEA-4F96-B78D-A494559BD4BD", 265, 1510268463, "708543", 1510268463, "708543", null, "2012-10-08T00:00:00", "4.13", "4.07", "4.1", "4.11", "4.15", "4.22", "4.06", "4.07", "4.12" ]
+, [ 266, "51023008-284E-44C9-A901-DEEE6F46A67C", 266, 1510268463, "708543", 1510268463, "708543", null, "2012-10-01T00:00:00", "4.09", "4.03", "4.05", "4.07", "4.1", "4.17", "4.03", "4.05", "4.08" ]
+, [ 267, "B648C742-8541-460F-9013-98E517239506", 267, 1510268463, "708543", 1510268463, "708543", null, "2012-09-24T00:00:00", "4.12", "4.07", "4.1", "4.08", "4.14", "4.21", "4.06", "4.08", "4.11" ]
+, [ 268, "A2D6EA00-FBF3-4F75-BE82-08974A27D16B", 268, 1510268463, "708543", 1510268463, "708543", null, "2012-09-17T00:00:00", "4.12", "4.06", "4.09", "4.05", "4.17", "4.21", "4.03", "4.06", "4.09" ]
+, [ 269, "6E6D96B2-B1D1-49DE-8318-E5E75B641E74", 269, 1510268463, "708543", 1510268463, "708543", null, "2012-09-10T00:00:00", "4.02", "3.94", "3.99", "3.96", "4.06", "4.12", "3.95", "3.97", "4.01" ]
+, [ 270, "006D4878-BA9F-47B1-9DB4-AAD39E4F542A", 270, 1510268463, "708543", 1510268463, "708543", null, "2012-09-03T00:00:00", "3.99", "3.91", "3.96", "3.92", "4.04", "4.1", "3.91", "3.93", "3.98" ]
+, [ 271, "EFBD666F-A30D-4D28-BC9B-CD7B1442B968", 271, 1510268463, "708543", 1510268463, "708543", null, "2012-08-27T00:00:00", "3.96", "3.87", "3.91", "3.87", "4.02", "4.08", "3.86", "3.88", "3.94" ]
+, [ 272, "CA47C0B2-5E18-4242-AD00-C6363D9F6833", 272, 1510268463, "708543", 1510268463, "708543", null, "2012-08-20T00:00:00", "3.92", "3.83", "3.86", "3.82", "3.99", "4.05", "3.81", "3.83", "3.88" ]
+, [ 273, "573F3410-4D4F-4767-A090-A1734124F166", 273, 1510268463, "708543", 1510268463, "708543", null, "2012-08-13T00:00:00", "3.86", "3.78", "3.81", "3.74", "3.95", "4", "3.74", "3.76", "3.8" ]
+, [ 274, "410010BC-0218-4293-8A34-302F3CA271FA", 274, 1510268463, "708543", 1510268463, "708543", null, "2012-08-06T00:00:00", "3.78", "3.69", "3.71", "3.67", "3.88", "3.93", "3.67", "3.67", "3.71" ]
+, [ 275, "374F4EB6-A5AE-4010-80F7-DC356B013C02", 275, 1510268463, "708543", 1510268463, "708543", null, "2012-07-30T00:00:00", "3.77", "3.66", "3.7", "3.65", "3.87", "3.9", "3.66", "3.66", "3.7" ]
+, [ 276, "72AB0C00-824F-4CDE-B4BF-CE3A11FAA3FF", 276, 1510268463, "708543", 1510268463, "708543", null, "2012-07-23T00:00:00", "3.73", "3.62", "3.67", "3.63", "3.83", "3.86", "3.61", "3.62", "3.66" ]
+, [ 277, "817B9642-46CB-4076-94C0-CEFA85635DF7", 277, 1510268463, "708543", 1510268463, "708543", null, "2012-07-16T00:00:00", "3.66", "3.54", "3.58", "3.6", "3.74", "3.78", "3.57", "3.54", "3.59" ]
+, [ 278, "2EF36940-6E65-4854-86F3-52057CBAD648", 278, 1510268463, "708543", 1510268463, "708543", null, "2012-07-09T00:00:00", "3.61", "3.5", "3.52", "3.59", "3.66", "3.73", "3.55", "3.49", "3.53" ]
+, [ 279, "B6B75FB9-2337-491F-8650-25C0B9998253", 279, 1510268463, "708543", 1510268463, "708543", null, "2012-07-02T00:00:00", "3.63", "3.52", "3.53", "3.64", "3.64", "3.74", "3.57", "3.51", "3.55" ]
+, [ 280, "39F8CCFF-59E9-408F-9E18-5B07EEB6EEF9", 280, 1510268463, "708543", 1510268463, "708543", null, "2012-06-25T00:00:00", "3.68", "3.59", "3.6", "3.72", "3.66", "3.78", "3.63", "3.57", "3.61" ]
+, [ 281, "55F699FB-77DA-4344-B02B-417B9655B774", 281, 1510268463, "708543", 1510268463, "708543", null, "2012-06-18T00:00:00", "3.74", "3.66", "3.66", "3.78", "3.71", "3.83", "3.7", "3.63", "3.68" ]
+, [ 282, "D59E1F3A-DFEA-4CF3-9852-D67EE126DBED", 282, 1510268463, "708543", 1510268463, "708543", null, "2012-06-11T00:00:00", "3.8", "3.72", "3.71", "3.85", "3.78", "3.89", "3.76", "3.7", "3.75" ]
+, [ 283, "6BC7ACF6-F343-4C53-AC83-77F8024D8C19", 283, 1510268463, "708543", 1510268463, "708543", null, "2012-06-04T00:00:00", "3.87", "3.78", "3.78", "3.9", "3.88", "3.96", "3.83", "3.77", "3.81" ]
+, [ 284, "2D07AA22-78ED-4824-8E94-5BD7DAAC5AF7", 284, 1510268463, "708543", 1510268463, "708543", null, "2012-05-28T00:00:00", "3.92", "3.83", "3.83", "3.94", "3.92", "4.01", "3.88", "3.83", "3.87" ]
+, [ 285, "CE0A9A42-5A95-4C10-911E-E5A8D0554E6A", 285, 1510268463, "708543", 1510268463, "708543", null, "2012-05-21T00:00:00", "3.96", "3.88", "3.88", "3.97", "3.96", "4.06", "3.93", "3.88", "3.93" ]
+, [ 286, "8105A77C-E906-4D25-A23B-7D5451066FB7", 286, 1510268463, "708543", 1510268463, "708543", null, "2012-05-14T00:00:00", "4.02", "3.93", "3.93", "4", "4.02", "4.11", "3.99", "3.94", "3.98" ]
+, [ 287, "49802F38-5D4B-4D57-8408-E6BCF42A2FCC", 287, 1510268463, "708543", 1510268463, "708543", null, "2012-05-07T00:00:00", "4.07", "4", "3.99", "4.06", "4.08", "4.17", "4.04", "4", "4.05" ]
+, [ 288, "112AFBFA-FB9B-4ED7-B531-76476631978C", 288, 1510268463, "708543", 1510268463, "708543", null, "2012-04-30T00:00:00", "4.11", "4.04", "4.04", "4.1", "4.12", "4.2", "4.07", "4.05", "4.09" ]
+, [ 289, "2B46823C-69F7-4AAF-8D2E-F81FF1A70261", 289, 1510268463, "708543", 1510268463, "708543", null, "2012-04-23T00:00:00", "4.14", "4.08", "4.09", "4.12", "4.15", "4.23", "4.09", "4.08", "4.13" ]
+, [ 290, "CBE1F6C7-2E81-44F3-8160-5E6D3D5A6874", 290, 1510268463, "708543", 1510268463, "708543", null, "2012-04-16T00:00:00", "4.15", "4.1", "4.1", "4.11", "4.16", "4.23", "4.08", "4.09", "4.13" ]
+, [ 291, "F4E16B51-07DF-491D-B65B-92CB5579C9AE", 291, 1510268463, "708543", 1510268463, "708543", null, "2012-04-09T00:00:00", "4.13", "4.08", "4.1", "4.08", "4.15", "4.22", "4.06", "4.07", "4.11" ]
+, [ 292, "DCE1AC0B-C3B7-4537-8566-D53E6F1B622F", 292, 1510268463, "708543", 1510268463, "708543", null, "2012-04-02T00:00:00", "4.07", "4.03", "4.05", "4.04", "4.09", "4.15", "4.01", "4.02", "4.06" ]
+, [ 293, "BB06ECEF-B29E-4CD8-9041-6EED2F1DA59C", 293, 1510268463, "708543", 1510268463, "708543", null, "2012-03-26T00:00:00", "4.04", "3.99", "4.01", "4.02", "4.07", "4.11", "3.97", "3.98", "4.02" ]
+, [ 294, "37CC69E4-96E2-4D02-9253-7658A9964448", 294, 1510268463, "708543", 1510268463, "708543", null, "2012-03-19T00:00:00", "4", "3.95", "3.97", "3.99", "4.03", "4.08", "3.94", "3.95", "3.98" ]
+, [ 295, "E37E0863-56EC-46CF-A227-63F3DD57A5A7", 295, 1510268463, "708543", 1510268463, "708543", null, "2012-03-12T00:00:00", "3.99", "3.95", "3.96", "3.99", "4.02", "4.06", "3.92", "3.94", "3.97" ]
+, [ 296, "49E54013-E8E1-4B4B-8850-8955E66A6E0D", 296, 1510268463, "708543", 1510268463, "708543", null, "2012-03-05T00:00:00", "3.98", "3.94", "3.96", "3.96", "4.02", "4.05", "3.89", "3.92", "3.95" ]
+, [ 297, "7136446A-BDF1-4038-A70F-14CF65C554FA", 297, 1510268463, "708543", 1510268463, "708543", null, "2012-02-27T00:00:00", "3.91", "3.87", "3.89", "3.87", "3.95", "3.99", "3.83", "3.86", "3.88" ]
+, [ 298, "1452F0CB-1D4B-491A-8119-2E602BA6447D", 298, 1510268463, "708543", 1510268463, "708543", null, "2012-02-20T00:00:00", "3.86", "3.82", "3.83", "3.82", "3.9", "3.95", "3.78", "3.81", "3.82" ]
+, [ 299, "5545D69F-3C0C-466E-8BE7-BD13866AAF20", 299, 1510268463, "708543", 1510268463, "708543", null, "2012-02-13T00:00:00", "3.81", "3.77", "3.79", "3.75", "3.84", "3.89", "3.73", "3.75", "3.77" ]
+, [ 300, "51000C52-00F9-4670-8C0F-57F8F74B6970", 300, 1510268463, "708543", 1510268463, "708543", null, "2012-02-06T00:00:00", "3.77", "3.74", "3.76", "3.71", "3.8", "3.86", "3.68", "3.72", "3.73" ]
+, [ 301, "BA61EC9D-1164-4799-AD23-066C3341FA54", 301, 1510268463, "708543", 1510268463, "708543", null, "2012-01-30T00:00:00", "3.71", "3.68", "3.69", "3.66", "3.74", "3.79", "3.62", "3.66", "3.69" ]
+, [ 302, "4C225587-C6AC-436C-A7BA-7CA1DC30A314", 302, 1510268463, "708543", 1510268463, "708543", null, "2012-01-23T00:00:00", "3.68", "3.64", "3.66", "3.64", "3.71", "3.76", "3.59", "3.62", "3.67" ]
+, [ 303, "0C179D2D-D296-452C-A86F-57981CC51025", 303, 1510268463, "708543", 1510268463, "708543", null, "2012-01-16T00:00:00", "3.65", "3.61", "3.63", "3.63", "3.68", "3.73", "3.56", "3.59", "3.63" ]
+, [ 304, "030ACB51-CC21-4FBB-814E-840CCBB2CE2C", 304, 1510268463, "708543", 1510268463, "708543", null, "2012-01-09T00:00:00", "3.6", "3.55", "3.58", "3.59", "3.63", "3.68", "3.51", "3.52", "3.58" ]
+, [ 305, "E6D75D88-F638-43DD-9049-438B0346E4C2", 305, 1510268463, "708543", 1510268463, "708543", null, "2012-01-02T00:00:00", "3.53", "3.46", "3.5", "3.56", "3.56", "3.63", "3.46", "3.43", "3.52" ]
+, [ 306, "5925E2BC-183D-4EC4-A097-B2BCBED50015", 306, 1510268463, "708543", 1510268463, "708543", null, "2011-12-26T00:00:00", "3.53", "3.44", "3.48", "3.56", "3.54", "3.63", "3.47", "3.42", "3.52" ]
+, [ 307, "1C3CADC0-3E47-4353-882B-35C1D99F85F9", 307, 1510268463, "708543", 1510268463, "708543", null, "2011-12-19T00:00:00", "3.56", "3.47", "3.51", "3.58", "3.57", "3.66", "3.5", "3.45", "3.56" ]
+, [ 308, "862D2852-E4BC-4640-BF34-8B8B8F80D092", 308, 1510268463, "708543", 1510268463, "708543", null, "2011-12-12T00:00:00", "3.58", "3.49", "3.53", "3.6", "3.59", "3.68", "3.53", "3.47", "3.59" ]
+, [ 309, "CB88ABF8-62C2-4004-BE2E-03F27FF8308C", 309, 1510268463, "708543", 1510268463, "708543", null, "2011-12-05T00:00:00", "3.6", "3.51", "3.55", "3.61", "3.61", "3.69", "3.56", "3.49", "3.62" ]
+, [ 310, "8ABB2A77-3BCD-4B7F-98FB-EC9435A0C88A", 310, 1510268463, "708543", 1510268463, "708543", null, "2011-11-28T00:00:00", "3.63", "3.54", "3.59", "3.64", "3.63", "3.72", "3.59", "3.53", "3.64" ]
+, [ 311, "9A47AD9F-C6D2-43EE-B5B5-D2AA682B7E1D", 311, 1510268463, "708543", 1510268463, "708543", null, "2011-11-21T00:00:00", "3.66", "3.58", "3.62", "3.66", "3.68", "3.76", "3.62", "3.56", "3.67" ]
+, [ 312, "F50E38D6-32EB-41A1-A299-CFFAB5694D84", 312, 1510268463, "708543", 1510268463, "708543", null, "2011-11-14T00:00:00", "3.68", "3.61", "3.63", "3.67", "3.7", "3.77", "3.64", "3.58", "3.69" ]
+, [ 313, "35015081-8ABF-4F8D-B7A0-F5A3846E1181", 313, 1510268463, "708543", 1510268463, "708543", null, "2011-11-07T00:00:00", "3.69", "3.61", "3.63", "3.68", "3.71", "3.78", "3.65", "3.58", "3.68" ]
+, [ 314, "6F772CF2-5D27-441B-AC89-8A578128829E", 314, 1510268463, "708543", 1510268463, "708543", null, "2011-10-31T00:00:00", "3.71", "3.63", "3.66", "3.69", "3.73", "3.79", "3.67", "3.6", "3.69" ]
+, [ 315, "4CBFC0ED-90FE-4DF6-9A65-4CEDE514764C", 315, 1510268463, "708543", 1510268463, "708543", null, "2011-10-24T00:00:00", "3.72", "3.64", "3.69", "3.7", "3.75", "3.82", "3.69", "3.62", "3.7" ]
+, [ 316, "EA384203-D2C1-4F74-BA9F-0F1CBF658D39", 316, 1510268463, "708543", 1510268463, "708543", null, "2011-10-17T00:00:00", "3.71", "3.6", "3.67", "3.69", "3.74", "3.81", "3.69", "3.6", "3.67" ]
+, [ 317, "B10CCD18-FF72-400A-BBBB-6C0433F2A557", 317, 1510268463, "708543", 1510268463, "708543", null, "2011-10-10T00:00:00", "3.72", "3.58", "3.67", "3.7", "3.75", "3.83", "3.71", "3.6", "3.66" ]
+, [ 318, "74779233-DB5A-4DFF-AC49-CF5E92A0C433", 318, 1510268463, "708543", 1510268463, "708543", null, "2011-10-03T00:00:00", "3.76", "3.63", "3.72", "3.74", "3.81", "3.88", "3.74", "3.65", "3.7" ]
+, [ 319, "AF0F629E-716B-4F50-A191-A6E4001C76F6", 319, 1510268463, "708543", 1510268463, "708543", null, "2011-09-26T00:00:00", "3.83", "3.72", "3.76", "3.78", "3.89", "3.95", "3.77", "3.7", "3.78" ]
+, [ 320, "D8022896-48D1-46D0-B1B4-9F67DF503737", 320, 1510268463, "708543", 1510268463, "708543", null, "2011-09-19T00:00:00", "3.88", "3.77", "3.79", "3.81", "3.95", "4", "3.8", "3.74", "3.82" ]
+, [ 321, "D4056121-E48D-4CC3-90ED-422FB16541A7", 321, 1510268463, "708543", 1510268463, "708543", null, "2011-09-12T00:00:00", "3.89", "3.78", "3.8", "3.8", "3.98", "4.02", "3.8", "3.75", "3.84" ]
+, [ 322, "ABF44AE1-C1B5-477D-9460-677E45D71D4A", 322, 1510268463, "708543", 1510268463, "708543", null, "2011-09-05T00:00:00", "3.87", "3.77", "3.77", "3.79", "3.98", "4", "3.79", "3.73", "3.82" ]
+, [ 323, "1FC0F017-AD23-4AB0-A5CC-7980FA1F9B63", 323, 1510268463, "708543", 1510268463, "708543", null, "2011-08-29T00:00:00", "3.86", "3.75", "3.75", "3.78", "3.94", "3.98", "3.79", "3.72", "3.81" ]
+, [ 324, "1ECA2870-916D-4845-B913-7D31B85EB827", 324, 1510268463, "708543", 1510268463, "708543", null, "2011-08-22T00:00:00", "3.88", "3.78", "3.78", "3.81", "3.96", "4", "3.81", "3.75", "3.83" ]
+, [ 325, "B87F32C4-D533-4367-AA61-B26AC34C5FF9", 325, 1510268463, "708543", 1510268463, "708543", null, "2011-08-15T00:00:00", "3.92", "3.82", "3.84", "3.83", "4", "4.04", "3.83", "3.79", "3.86" ]
+, [ 326, "79CE100B-217E-4495-801B-1AE165EF6A23", 326, 1510268463, "708543", 1510268463, "708543", null, "2011-08-08T00:00:00", "3.96", "3.87", "3.89", "3.87", "4.05", "4.1", "3.85", "3.84", "3.89" ]
+, [ 327, "BABF85BC-91EE-4FF6-B094-A9F0F95C322F", 327, 1510268463, "708543", 1510268463, "708543", null, "2011-08-01T00:00:00", "3.97", "3.87", "3.89", "3.86", "4.06", "4.1", "3.85", "3.84", "3.89" ]
+, [ 328, "7FA5FCA6-BEE7-4FA8-912B-23EDBC3E81DD", 328, 1510268463, "708543", 1510268463, "708543", null, "2011-07-25T00:00:00", "3.94", "3.84", "3.87", "3.84", "4.03", "4.08", "3.84", "3.81", "3.86" ]
+, [ 329, "02115CAB-93BF-42B6-8F08-893AEC9A2555", 329, 1510268463, "708543", 1510268463, "708543", null, "2011-07-18T00:00:00", "3.91", "3.8", "3.85", "3.8", "3.99", "4.04", "3.82", "3.77", "3.82" ]
+, [ 330, "3250920B-1B87-4B5A-984F-96438238BD27", 330, 1510268463, "708543", 1510268463, "708543", null, "2011-07-11T00:00:00", "3.85", "3.71", "3.78", "3.78", "3.92", "3.98", "3.8", "3.69", "3.77" ]
+, [ 331, "CC0FA67A-BB86-43DA-88E7-DE59FA604735", 331, 1510268463, "708543", 1510268463, "708543", null, "2011-07-04T00:00:00", "3.85", "3.69", "3.77", "3.81", "3.92", "3.98", "3.81", "3.7", "3.79" ]
+, [ 332, "E51D7C90-078E-445D-9A90-E0BC174B018E", 332, 1510268463, "708543", 1510268463, "708543", null, "2011-06-27T00:00:00", "3.9", "3.75", "3.81", "3.87", "3.96", "4.03", "3.85", "3.75", "3.83" ]
+, [ 333, "A60D80F9-33A4-44FC-BBB6-5196A9AB3A59", 333, 1510268463, "708543", 1510268463, "708543", null, "2011-06-20T00:00:00", "3.94", "3.8", "3.86", "3.91", "3.98", "4.06", "3.89", "3.8", "3.87" ]
+, [ 334, "6371EE42-E569-469F-8995-37B52C180CA5", 334, 1510268463, "708543", 1510268463, "708543", null, "2011-06-13T00:00:00", "3.97", "3.85", "3.89", "3.94", "4.01", "4.09", "3.92", "3.85", "3.91" ]
+, [ 335, "A0E4653E-2015-4683-99AB-31B789443205", 335, 1510268463, "708543", 1510268463, "708543", null, "2011-06-06T00:00:00", "4.01", "3.9", "3.93", "3.97", "4.06", "4.13", "3.95", "3.89", "3.94" ]
+, [ 336, "E621300E-A806-4573-88C9-7DB11FE70527", 336, 1510268463, "708543", 1510268463, "708543", null, "2011-05-30T00:00:00", "4.05", "3.94", "3.97", "4", "4.12", "4.17", "3.98", "3.93", "3.98" ]
+, [ 337, "247A9765-EE2C-4BDB-8C7A-5FC594F7DAF7", 337, 1510268463, "708543", 1510268463, "708543", null, "2011-05-23T00:00:00", "4.12", "4.01", "4.02", "4.05", "4.21", "4.25", "4.02", "3.98", "4.03" ]
+, [ 338, "B9D92894-D1EF-426B-A537-F07BE2C8B0CC", 338, 1510268463, "708543", 1510268463, "708543", null, "2011-05-16T00:00:00", "4.16", "4.07", "4.06", "4.07", "4.27", "4.29", "4.05", "4.03", "4.08" ]
+, [ 339, "755855A8-8693-4191-9232-41A6A8165929", 339, 1510268463, "708543", 1510268463, "708543", null, "2011-05-09T00:00:00", "4.17", "4.09", "4.07", "4.07", "4.27", "4.29", "4.06", "4.05", "4.09" ]
+, [ 340, "7A9443D4-207D-426C-97D5-E9AADB6A296A", 340, 1510268463, "708543", 1510268463, "708543", null, "2011-05-02T00:00:00", "4.11", "4.05", "4.03", "4.04", "4.2", "4.22", "4.01", "4.01", "4.04" ]
+, [ 341, "87581142-963B-4B23-A421-AB6563318EB7", 341, 1510268463, "708543", 1510268463, "708543", null, "2011-04-25T00:00:00", "4.05", "4", "3.99", "3.99", "4.12", "4.15", "3.96", "3.95", "3.99" ]
+, [ 342, "2E0A7EE6-7AAB-4C34-B5C1-7666211DEA0E", 342, 1510268463, "708543", 1510268463, "708543", null, "2011-04-18T00:00:00", "3.98", "3.96", "3.95", "3.92", "4.02", "4.05", "3.91", "3.91", "3.95" ]
+, [ 343, "589115D8-D8DE-427D-932E-C229D7794345", 343, 1510268463, "708543", 1510268463, "708543", null, "2011-04-11T00:00:00", "3.9", "3.88", "3.87", "3.84", "3.93", "3.96", "3.83", "3.84", "3.88" ]
+, [ 344, "827087BD-C9D1-401E-822D-88D3EF4B16ED", 344, 1510268463, "708543", 1510268463, "708543", null, "2011-04-04T00:00:00", "3.79", "3.76", "3.78", "3.76", "3.82", "3.86", "3.74", "3.73", "3.76" ]
+, [ 345, "62731637-034D-4416-9FB2-DDD8E34E0B22", 345, 1510268463, "708543", 1510268463, "708543", null, "2011-03-28T00:00:00", "3.76", "3.72", "3.73", "3.73", "3.78", "3.82", "3.71", "3.68", "3.71" ]
+, [ 346, "740C2D7A-1071-4C7A-921A-C5118A549B3D", 346, 1510268463, "708543", 1510268463, "708543", null, "2011-03-21T00:00:00", "3.75", "3.71", "3.71", "3.71", "3.78", "3.82", "3.7", "3.67", "3.7" ]
+, [ 347, "87BB83E9-D2EE-4FB1-8BF2-5C9E8F155B71", 347, 1510268463, "708543", 1510268463, "708543", null, "2011-03-14T00:00:00", "3.74", "3.71", "3.69", "3.69", "3.77", "3.81", "3.69", "3.67", "3.7" ]
+, [ 348, "E92BE6E1-419C-40D5-AF06-9A8B2486DA38", 348, 1510268463, "708543", 1510268463, "708543", null, "2011-03-07T00:00:00", "3.64", "3.62", "3.61", "3.58", "3.68", "3.71", "3.57", "3.57", "3.6" ]
+, [ 349, "CCBBC291-E25A-4B8A-8B7E-B1EF2B24D74A", 349, 1510268463, "708543", 1510268463, "708543", null, "2011-02-28T00:00:00", "3.49", "3.47", "3.46", "3.41", "3.53", "3.55", "3.41", "3.4", "3.46" ]
+, [ 350, "49537080-F006-4759-9937-BF416DCEA771", 350, 1510268463, "708543", 1510268463, "708543", null, "2011-02-21T00:00:00", "3.39", "3.36", "3.37", "3.34", "3.43", "3.47", "3.33", "3.31", "3.38" ]
+, [ 351, "3AF75AB9-EBC8-4D1A-8728-2B2B7FB786F7", 351, 1510268463, "708543", 1510268463, "708543", null, "2011-02-14T00:00:00", "3.38", "3.35", "3.36", "3.33", "3.41", "3.45", "3.32", "3.3", "3.38" ]
+, [ 352, "466B391D-A4DA-4910-A309-2AE689C09714", 352, 1510268463, "708543", 1510268463, "708543", null, "2011-02-07T00:00:00", "3.38", "3.34", "3.34", "3.33", "3.41", "3.44", "3.32", "3.3", "3.37" ]
+, [ 353, "8D5BAB29-AE75-4052-985C-B127B5C31A84", 353, 1510268463, "708543", 1510268463, "708543", null, "2011-01-31T00:00:00", "3.37", "3.33", "3.33", "3.33", "3.4", "3.43", "3.32", "3.3", "3.36" ]
+, [ 354, "C5D10BFE-9492-4C2A-AFD2-AA0F1AFE6459", 354, 1510268463, "708543", 1510268463, "708543", null, "2011-01-24T00:00:00", "3.36", "3.32", "3.33", "3.32", "3.4", "3.42", "3.31", "3.3", "3.35" ]
+, [ 355, "73620317-3DF9-4CCD-ACB1-B68E9B010058", 355, 1510268463, "708543", 1510268463, "708543", null, "2011-01-17T00:00:00", "3.34", "3.29", "3.31", "3.3", "3.37", "3.4", "3.29", "3.27", "3.33" ]
+, [ 356, "03BD2BF5-0EC4-4CF5-BEFD-C6DD01173691", 356, 1510268463, "708543", 1510268463, "708543", null, "2011-01-10T00:00:00", "3.32", "3.28", "3.3", "3.28", "3.35", "3.39", "3.26", "3.25", "3.3" ]
+, [ 357, "2FE7B1B3-D669-4ABB-A6AC-B5F666FE1BCF", 357, 1510268463, "708543", 1510268463, "708543", null, "2011-01-03T00:00:00", "3.3", "3.27", "3.27", "3.25", "3.34", "3.37", "3.24", "3.23", "3.28" ]
+, [ 358, "09B4B704-6B25-438C-A2AA-B61FDA221846", 358, 1510268463, "708543", 1510268463, "708543", null, "2010-12-27T00:00:00", "3.28", "3.24", "3.24", "3.23", "3.32", "3.35", "3.21", "3.2", "3.25" ]
+, [ 359, "D72DE43B-5E2A-484C-8E60-530697988603", 359, 1510268463, "708543", 1510268463, "708543", null, "2010-12-20T00:00:00", "3.25", "3.21", "3.21", "3.2", "3.3", "3.32", "3.19", "3.18", "3.23" ]
+, [ 360, "D596C438-6B32-42AB-B61C-BB43ED927564", 360, 1510268463, "708543", 1510268463, "708543", null, "2010-12-13T00:00:00", "3.24", "3.2", "3.2", "3.19", "3.28", "3.3", "3.18", "3.17", "3.21" ]
+, [ 361, "EE983855-7803-42D8-86CA-3F8B93EC6A69", 361, 1510268463, "708543", 1510268463, "708543", null, "2010-12-06T00:00:00", "3.18", "3.14", "3.16", "3.14", "3.23", "3.23", "3.13", "3.12", "3.16" ]
+, [ 362, "F38CD491-ACDD-4B61-AA3E-4CF2A11143C0", 362, 1510268463, "708543", 1510268463, "708543", null, "2010-11-29T00:00:00", "3.15", "3.1", "3.13", "3.12", "3.19", "3.2", "3.1", "3.1", "3.14" ]
+, [ 363, "A4790227-FE22-47FE-84F8-C49C33AA565D", 363, 1510268463, "708543", 1510268463, "708543", null, "2010-11-22T00:00:00", "3.13", "3.09", "3.11", "3.09", "3.16", "3.17", "3.08", "3.08", "3.12" ]
+, [ 364, "A8881454-FBF4-4A93-94B4-7611107FD1E8", 364, 1510268463, "708543", 1510268463, "708543", null, "2010-11-15T00:00:00", "3.07", "3.03", "3.05", "3.04", "3.1", "3.1", "3.03", "3.03", "3.06" ]
+, [ 365, "1740A6A3-5448-4986-99A3-06E117E424AD", 365, 1510268463, "708543", 1510268463, "708543", null, "2010-11-08T00:00:00", "3.02", "2.98", "2.99", "3.01", "3.05", "3.06", "2.99", "2.98", "3.01" ]
+, [ 366, "FD54A43C-6939-4E5B-8EE9-18EDF05255F5", 366, 1510268463, "708543", 1510268463, "708543", null, "2010-11-01T00:00:00", "3.02", "2.98", "2.98", "3", "3.04", "3.05", "2.99", "2.97", "3.01" ]
+, [ 367, "CD4358ED-8B9E-45D3-98E6-56D65C214F83", 367, 1510268463, "708543", 1510268463, "708543", null, "2010-10-25T00:00:00", "3.02", "2.98", "2.99", "3", "3.04", "3.05", "2.98", "2.98", "3.01" ]
+, [ 368, "5D023F1B-B0AF-48B4-9F72-81B0A8C43067", 368, 1510268463, "708543", 1510268463, "708543", null, "2010-10-18T00:00:00", "2.98", "2.95", "2.95", "2.96", "3.02", "3.02", "2.94", "2.95", "2.98" ]
+, [ 369, "4CD9CAF5-1324-497E-AFA4-410950179F6A", 369, 1510268463, "708543", 1510268463, "708543", null, "2010-10-11T00:00:00", "2.91", "2.87", "2.88", "2.88", "2.94", "2.95", "2.87", "2.86", "2.89" ]
+, [ 370, "0A965032-0FAC-4032-A83B-1AB3927FD000", 370, 1510268463, "708543", 1510268463, "708543", null, "2010-10-04T00:00:00", "2.83", "2.76", "2.79", "2.82", "2.85", "2.88", "2.8", "2.77", "2.81" ]
+, [ 371, "D0A7D86B-AC0A-4D13-9006-D8725B0F0DE9", 371, 1510268463, "708543", 1510268463, "708543", null, "2010-09-27T00:00:00", "2.82", "2.74", "2.77", "2.82", "2.84", "2.88", "2.8", "2.76", "2.81" ]
+, [ 372, "30C3AAD8-FD64-4BEF-88E2-037826F436A1", 372, 1510268463, "708543", 1510268463, "708543", null, "2010-09-20T00:00:00", "2.82", "2.74", "2.78", "2.82", "2.84", "2.88", "2.8", "2.76", "2.81" ]
+, [ 373, "BC884142-1117-4574-BED2-A4901C456BE5", 373, 1510268463, "708543", 1510268463, "708543", null, "2010-09-13T00:00:00", "2.82", "2.74", "2.76", "2.82", "2.83", "2.88", "2.79", "2.74", "2.79" ]
+, [ 374, "3DA5B103-F7DF-4989-9B96-8F5A66320581", 374, 1510268463, "708543", 1510268463, "708543", null, "2010-09-06T00:00:00", "2.83", "2.75", "2.77", "2.83", "2.85", "2.9", "2.8", "2.75", "2.8" ]
+, [ 375, "95791969-2126-4334-A6F0-BCF0CE3B1895", 375, 1510268463, "708543", 1510268463, "708543", null, "2010-08-30T00:00:00", "2.85", "2.76", "2.79", "2.84", "2.88", "2.92", "2.82", "2.79", "2.82" ]
+, [ 376, "E332704C-E89C-4EDC-B155-8589AEE0E1A2", 376, 1510268463, "708543", 1510268463, "708543", null, "2010-08-23T00:00:00", "2.88", "2.78", "2.82", "2.85", "2.91", "2.95", "2.85", "2.82", "2.84" ]
+, [ 377, "862F5F3F-B99D-4A2F-9426-00C7F2AB103F", 377, 1510268463, "708543", 1510268463, "708543", null, "2010-08-16T00:00:00", "2.9", "2.81", "2.85", "2.86", "2.95", "2.98", "2.86", "2.84", "2.87" ]
+, [ 378, "78C19DAE-00F4-4F78-95B4-7F0C9EC2C772", 378, 1510268463, "708543", 1510268463, "708543", null, "2010-08-09T00:00:00", "2.89", "2.81", "2.84", "2.85", "2.94", "2.97", "2.84", "2.82", "2.85" ]
+, [ 379, "B551267F-0EF0-40B8-9144-852D1C1EFC29", 379, 1510268463, "708543", 1510268463, "708543", null, "2010-08-02T00:00:00", "2.88", "2.78", "2.8", "2.84", "2.93", "2.96", "2.83", "2.8", "2.84" ]
+, [ 380, "1B09796E-CCB4-4619-A704-974E17232479", 380, 1510268463, "708543", 1510268463, "708543", null, "2010-07-26T00:00:00", "2.88", "2.76", "2.79", "2.84", "2.93", "2.96", "2.83", "2.79", "2.83" ]
+, [ 381, "3735D8C0-98B2-4B49-AAD9-6059A43EB117", 381, 1510268463, "708543", 1510268463, "708543", null, "2010-07-19T00:00:00", "2.88", "2.77", "2.79", "2.85", "2.94", "2.97", "2.83", "2.79", "2.84" ]
+, [ 382, "546B75C9-6BA2-4D71-9360-D7CBDBEE1037", 382, 1510268463, "708543", 1510268463, "708543", null, "2010-07-12T00:00:00", "2.89", "2.78", "2.79", "2.85", "2.94", "2.97", "2.84", "2.8", "2.84" ]
+, [ 383, "A9EEE529-466E-4DB5-A5B2-9CE2BD1CC398", 383, 1510268463, "708543", 1510268463, "708543", null, "2010-07-05T00:00:00", "2.9", "2.8", "2.81", "2.86", "2.96", "2.98", "2.86", "2.82", "2.86" ]
+, [ 384, "2FF75B3B-9A59-4211-A70D-4223FB11F55C", 384, 1510268463, "708543", 1510268463, "708543", null, "2010-06-28T00:00:00", "2.91", "2.8", "2.83", "2.86", "2.96", "2.98", "2.87", "2.83", "2.86" ]
+, [ 385, "2B1C5B10-F584-4ADF-B81D-ED73BE8CD92E", 385, 1510268463, "708543", 1510268463, "708543", null, "2010-06-21T00:00:00", "2.89", "2.77", "2.79", "2.86", "2.95", "2.98", "2.86", "2.8", "2.83" ]
+, [ 386, "428CC79D-3CC1-491D-AD9E-9494817A266A", 386, 1510268463, "708543", 1510268463, "708543", null, "2010-06-14T00:00:00", "2.91", "2.77", "2.78", "2.88", "2.96", "3", "2.89", "2.81", "2.83" ]
+, [ 387, "DEE6B484-F684-42C5-9BCA-35624EB4F365", 387, 1510268463, "708543", 1510268463, "708543", null, "2010-06-07T00:00:00", "2.94", "2.79", "2.83", "2.92", "3", "3.03", "2.93", "2.86", "2.86" ]
+, [ 388, "184CD9CC-A856-4268-A1D6-EA25D3DE88C3", 388, 1510268463, "708543", 1510268463, "708543", null, "2010-05-31T00:00:00", "2.98", "2.82", "2.89", "2.97", "3.03", "3.06", "2.97", "2.92", "2.91" ]
+, [ 389, "12B29A89-E175-4BBA-95B9-B6E94D596033", 389, 1510268463, "708543", 1510268463, "708543", null, "2010-05-24T00:00:00", "3.03", "2.92", "2.96", "3.01", "3.09", "3.11", "3.01", "2.98", "2.99" ]
+, [ 390, "BB9C57AF-D30D-451B-B756-11D2C4451C4C", 390, 1510268463, "708543", 1510268463, "708543", null, "2010-05-17T00:00:00", "3.07", "2.98", "3", "3.03", "3.13", "3.13", "3.03", "3.02", "3.03" ]
+, [ 391, "C9FA8978-2209-4351-87A1-106BDC3E2FC0", 391, 1510268463, "708543", 1510268463, "708543", null, "2010-05-10T00:00:00", "3.08", "3.01", "3.03", "3.04", "3.14", "3.14", "3.04", "3.04", "3.04" ]
+, [ 392, "0B476BB4-A653-4C0F-A5C9-492267887CA5", 392, 1510268463, "708543", 1510268463, "708543", null, "2010-05-03T00:00:00", "3.05", "2.98", "3.01", "3.02", "3.08", "3.09", "3.02", "3.02", "3.03" ]
+, [ 393, "5DEAB66C-62C1-4E7A-AB2D-54C7923ADA4F", 393, 1510268463, "708543", 1510268463, "708543", null, "2010-04-26T00:00:00", "3.01", "2.96", "2.98", "3.01", "3.03", "3.04", "3", "3", "3.01" ]
+, [ 394, "1B098A24-082A-4F63-9C6B-2AC65F8087C4", 394, 1510268463, "708543", 1510268463, "708543", null, "2010-04-19T00:00:00", "3", "2.97", "2.99", "3", "3", "3.01", "2.99", "3", "3.03" ]
+, [ 395, "62C0C796-7F44-4AA8-A76D-67E017A4442F", 395, 1510268463, "708543", 1510268463, "708543", null, "2010-04-12T00:00:00", "2.98", "2.96", "2.99", "2.97", "2.99", "3", "2.97", "2.98", "2.99" ]
+, [ 396, "54D52A59-5833-4273-AF64-6E3EA3D3D92A", 396, 1510268463, "708543", 1510268463, "708543", null, "2010-04-05T00:00:00", "2.95", "2.91", "2.94", "2.94", "2.95", "2.97", "2.94", "2.93", "2.95" ]
+, [ 397, "6D7FE490-249D-456C-B54C-D65CDEB956FC", 397, 1510268463, "708543", 1510268463, "708543", null, "2010-03-29T00:00:00", "2.94", "2.91", "2.93", "2.94", "2.94", "2.96", "2.94", "2.93", "2.93" ]
+, [ 398, "0304B617-78F8-430E-99CE-F980E06A761F", 398, 1510268463, "708543", 1510268463, "708543", null, "2010-03-22T00:00:00", "2.94", "2.91", "2.93", "2.94", "2.94", "2.96", "2.94", "2.93", "2.93" ]
+, [ 399, "0C7565F3-5AEF-4D6D-9ACD-3A36DE007EDC", 399, 1510268463, "708543", 1510268463, "708543", null, "2010-03-15T00:00:00", "2.92", "2.9", "2.91", "2.92", "2.92", "2.94", "2.92", "2.91", "2.92" ]
+, [ 400, "CEB2515F-3AB4-4030-8AD5-758005B7E7B9", 400, 1510268463, "708543", 1510268463, "708543", null, "2010-03-08T00:00:00", "2.88", "2.85", "2.86", "2.88", "2.88", "2.91", "2.89", "2.86", "2.88" ]
+, [ 401, "7EDE8830-DC16-4FBE-97B3-070A033FB39A", 401, 1510268463, "708543", 1510268463, "708543", null, "2010-03-01T00:00:00", "2.87", "2.83", "2.83", "2.86", "2.86", "2.9", "2.87", "2.83", "2.86" ]
+, [ 402, "784D30E5-E162-444A-A94E-10DAADC157CF", 402, 1510268463, "708543", 1510268463, "708543", null, "2010-02-22T00:00:00", "2.85", "2.8", "2.79", "2.85", "2.86", "2.9", "2.85", "2.78", "2.83" ]
+, [ 403, "DD939E07-B646-4C6F-96F6-71BDE8BBCDBA", 403, 1510268463, "708543", 1510268463, "708543", null, "2010-02-15T00:00:00", "2.87", "2.82", "2.81", "2.87", "2.87", "2.92", "2.87", "2.8", "2.85" ]
+, [ 404, "3468539E-7D18-4F60-A814-0A84E80BAEF9", 404, 1510268463, "708543", 1510268463, "708543", null, "2010-02-08T00:00:00", "2.9", "2.85", "2.84", "2.9", "2.9", "2.94", "2.9", "2.84", "2.88" ]
+, [ 405, "3469533C-8F4A-48DA-9C5B-AB57395A2889", 405, 1510268463, "708543", 1510268463, "708543", null, "2010-02-01T00:00:00", "2.92", "2.87", "2.87", "2.92", "2.93", "2.96", "2.91", "2.87", "2.91" ]
+, [ 406, "3C2DD5E3-DBDD-4A77-97CF-B682513AD501", 406, 1510268463, "708543", 1510268463, "708543", null, "2010-01-25T00:00:00", "2.94", "2.89", "2.9", "2.94", "2.96", "2.97", "2.93", "2.91", "2.94" ]
+, [ 407, "36306E0C-C6B3-4827-B560-B78A1D78A3E1", 407, 1510268463, "708543", 1510268463, "708543", null, "2010-01-18T00:00:00", "2.95", "2.91", "2.92", "2.95", "2.96", "2.97", "2.94", "2.92", "2.95" ]
+, [ 408, "6159D899-DA28-4063-8445-5F3EF9BE4725", 408, 1510268463, "708543", 1510268463, "708543", null, "2010-01-11T00:00:00", "2.9", "2.87", "2.89", "2.89", "2.92", "2.92", "2.88", "2.87", "2.91" ]
+, [ 409, "DD8D234B-4C31-4F33-8680-00CB5A951820", 409, 1510268463, "708543", 1510268463, "708543", null, "2010-01-04T00:00:00", "2.85", "2.8", "2.84", "2.85", "2.86", "2.88", "2.84", "2.8", "2.84" ]
+, [ 410, "E11CB1FF-F260-46A3-8F8F-08BF96FBC1FA", 410, 1510268463, "708543", 1510268463, "708543", null, "2009-12-28T00:00:00", "2.83", "2.77", "2.82", "2.84", "2.84", "2.87", "2.83", "2.76", "2.82" ]
+, [ 411, "A34CD621-8D7F-4DAE-8EEE-C30022F457F3", 411, 1510268463, "708543", 1510268463, "708543", null, "2009-12-21T00:00:00", "2.84", "2.78", "2.83", "2.85", "2.85", "2.87", "2.84", "2.78", "2.83" ]
+, [ 412, "E3EBC63B-1BA6-4E9F-ACC9-7CB652B41C2F", 412, 1510268463, "708543", 1510268463, "708543", null, "2009-12-14T00:00:00", "2.86", "2.81", "2.86", "2.86", "2.87", "2.89", "2.86", "2.8", "2.85" ]
+, [ 413, "BC78774E-A09B-4659-BF6B-859F84B9633E", 413, 1510268463, "708543", 1510268463, "708543", null, "2009-12-07T00:00:00", "2.86", "2.81", "2.86", "2.86", "2.87", "2.89", "2.86", "2.8", "2.85" ]
+, [ 414, "58ECB87E-FFA7-461C-B610-5D4C5216B194", 414, 1510268463, "708543", 1510268463, "708543", null, "2009-11-30T00:00:00", "2.86", "2.81", "2.86", "2.86", "2.87", "2.89", "2.85", "2.79", "2.84" ]
+, [ 415, "F61EE53D-1192-40E7-ABD7-967DF5AF6C6A", 415, 1510268463, "708543", 1510268463, "708543", null, "2009-11-23T00:00:00", "2.86", "2.81", "2.86", "2.87", "2.87", "2.89", "2.85", "2.8", "2.84" ]
+, [ 416, "B5D26FF7-862B-4E0D-A108-4FE9C2F7C0AB", 416, 1510268463, "708543", 1510268463, "708543", null, "2009-11-16T00:00:00", "2.87", "2.82", "2.87", "2.87", "2.88", "2.9", "2.86", "2.83", "2.86" ]
+, [ 417, "78318A2D-2497-4672-A241-A5AD8EC39483", 417, 1510268463, "708543", 1510268463, "708543", null, "2009-11-09T00:00:00", "2.87", "2.83", "2.87", "2.87", "2.88", "2.9", "2.86", "2.85", "2.87" ]
+, [ 418, "17991C1E-0E7B-47F7-925B-D3AA8A1FB1DC", 418, 1510268463, "708543", 1510268463, "708543", null, "2009-11-02T00:00:00", "2.86", "2.82", "2.85", "2.86", "2.87", "2.88", "2.84", "2.84", "2.86" ]
+, [ 419, "E7029E17-DEAD-496C-8995-B2F9A01B097B", 419, 1510268463, "708543", 1510268463, "708543", null, "2009-10-26T00:00:00", "2.79", "2.75", "2.78", "2.79", "2.8", "2.82", "2.78", "2.76", "2.78" ]
+, [ 420, "C7C0E6C4-9B81-49F0-9B86-9EA6D4BC5671", 420, 1510268463, "708543", 1510268463, "708543", null, "2009-10-19T00:00:00", "2.7", "2.61", "2.65", "2.71", "2.71", "2.75", "2.71", "2.63", "2.64" ]
+, [ 421, "2BC3DECC-C4EC-4474-9428-71117ECDC1C9", 421, 1510268463, "708543", 1510268463, "708543", null, "2009-10-12T00:00:00", "2.69", "2.58", "2.62", "2.72", "2.7", "2.75", "2.7", "2.6", "2.61" ]
+, [ 422, "1A901F12-E3AC-4DBB-B0FF-8406D42C221A", 422, 1510268463, "708543", 1510268463, "708543", null, "2009-10-05T00:00:00", "2.72", "2.6", "2.65", "2.74", "2.73", "2.79", "2.71", "2.63", "2.63" ]
+, [ 423, "E0DCF73E-BD4E-480C-AE2F-E8601842C4DF", 423, 1510268463, "708543", 1510268463, "708543", null, "2009-09-28T00:00:00", "2.76", "2.65", "2.68", "2.77", "2.79", "2.84", "2.74", "2.7", "2.68" ]
+, [ 424, "A87F6985-FE89-4A24-AAB8-78AFB8C8BECC", 424, 1510268463, "708543", 1510268463, "708543", null, "2009-09-21T00:00:00", "2.8", "2.68", "2.72", "2.78", "2.84", "2.87", "2.75", "2.71", "2.72" ]
+, [ 425, "54715D97-F1B3-49B9-A42A-EDCDD8EC9F33", 425, 1510268463, "708543", 1510268463, "708543", null, "2009-09-14T00:00:00", "2.82", "2.71", "2.75", "2.78", "2.87", "2.9", "2.77", "2.74", "2.74" ]
+, [ 426, "8BB5DB20-0F79-46D9-9C3D-768946264B5B", 426, 1510268463, "708543", 1510268463, "708543", null, "2009-09-07T00:00:00", "2.83", "2.73", "2.77", "2.79", "2.88", "2.91", "2.78", "2.76", "2.76" ]
+, [ 427, "BFC96996-3750-4085-A78B-1E80DAC71CBD", 427, 1510268463, "708543", 1510268463, "708543", null, "2009-08-31T00:00:00", "2.84", "2.74", "2.77", "2.8", "2.88", "2.91", "2.78", "2.77", "2.77" ]
+, [ 428, "5CA26CF4-300B-4523-B8E0-81ECFE99D66B", 428, 1510268463, "708543", 1510268463, "708543", null, "2009-08-24T00:00:00", "2.83", "2.74", "2.79", "2.8", "2.88", "2.9", "2.78", "2.78", "2.78" ]
+, [ 429, "8E61FB1C-241F-48EC-A3FC-2C280F100225", 429, 1510268463, "708543", 1510268463, "708543", null, "2009-08-17T00:00:00", "2.83", "2.75", "2.78", "2.79", "2.88", "2.9", "2.78", "2.78", "2.79" ]
+, [ 430, "0612987A-E14F-445A-9BF6-1ED307514CA4", 430, 1510268463, "708543", 1510268463, "708543", null, "2009-08-10T00:00:00", "2.8", "2.72", "2.73", "2.75", "2.84", "2.87", "2.75", "2.74", "2.76" ]
+, [ 431, "77CB1AA1-D810-431F-80A4-380117AF99FB", 431, 1510268463, "708543", 1510268463, "708543", null, "2009-08-03T00:00:00", "2.73", "2.6", "2.64", "2.7", "2.77", "2.8", "2.7", "2.65", "2.69" ]
+, [ 432, "B8B10BDB-AC06-4872-8938-1869A4DA430C", 432, 1510268463, "708543", 1510268463, "708543", null, "2009-07-27T00:00:00", "2.72", "2.58", "2.61", "2.7", "2.75", "2.8", "2.7", "2.63", "2.68" ]
+, [ 433, "7E2B1DAF-40F8-43B7-9A19-7AC57126AC73", 433, 1510268463, "708543", 1510268463, "708543", null, "2009-07-20T00:00:00", "2.74", "2.61", "2.64", "2.73", "2.78", "2.82", "2.72", "2.67", "2.7" ]
+, [ 434, "50687F7E-CB4E-49E3-A000-EE399B86468F", 434, 1510268463, "708543", 1510268463, "708543", null, "2009-07-13T00:00:00", "2.8", "2.68", "2.72", "2.78", "2.84", "2.88", "2.76", "2.73", "2.75" ]
+, [ 435, "8D8ECF29-C7E2-4EFC-B993-1B330A2EA1CF", 435, 1510268463, "708543", 1510268463, "708543", null, "2009-07-06T00:00:00", "2.83", "2.74", "2.76", "2.8", "2.87", "2.91", "2.78", "2.76", "2.78" ]
+, [ 436, "86AEC2FC-869C-470F-801E-0A6CE7189D54", 436, 1510268463, "708543", 1510268463, "708543", null, "2009-06-29T00:00:00", "2.85", "2.77", "2.79", "2.8", "2.89", "2.91", "2.8", "2.79", "2.8" ]
+, [ 437, "2F885843-FB63-4C9B-B2DA-ED5961B6A9DD", 437, 1510268463, "708543", 1510268463, "708543", null, "2009-06-22T00:00:00", "2.84", "2.78", "2.8", "2.78", "2.88", "2.91", "2.78", "2.79", "2.8" ]
+, [ 438, "56CAE456-6B82-4AFB-AFF0-A83581D8E72C", 438, 1510268463, "708543", 1510268463, "708543", null, "2009-06-15T00:00:00", "2.76", "2.7", "2.72", "2.71", "2.8", "2.82", "2.71", "2.71", "2.73" ]
+, [ 439, "C98454C5-72D4-4FE9-AFCB-F900D2D87B7A", 439, 1510268463, "708543", 1510268463, "708543", null, "2009-06-08T00:00:00", "2.69", "2.64", "2.66", "2.65", "2.72", "2.74", "2.65", "2.65", "2.66" ]
+, [ 440, "AA6540BF-75F4-4179-B95E-B067E192316D", 440, 1510268463, "708543", 1510268463, "708543", null, "2009-06-01T00:00:00", "2.6", "2.56", "2.56", "2.57", "2.64", "2.64", "2.56", "2.57", "2.58" ]
+, [ 441, "9868255B-8961-4BAC-AAE7-01632366A411", 441, 1510268463, "708543", 1510268463, "708543", null, "2009-05-25T00:00:00", "2.53", "2.48", "2.49", "2.49", "2.56", "2.56", "2.49", "2.5", "2.51" ]
+, [ 442, "6DE4825E-8E59-40DB-8D72-820F53F21AD4", 442, 1510268463, "708543", 1510268463, "708543", null, "2009-05-18T00:00:00", "2.43", "2.4", "2.41", "2.4", "2.45", "2.46", "2.41", "2.42", "2.43" ]
+, [ 443, "EBD773C5-2246-4DDA-A2EF-662051517207", 443, 1510268463, "708543", 1510268463, "708543", null, "2009-05-11T00:00:00", "2.3", "2.25", "2.28", "2.28", "2.32", "2.34", "2.26", "2.26", "2.27" ]
+, [ 444, "40740F96-8E56-4E34-8D27-C9E1850EEB18", 444, 1510268463, "708543", 1510268463, "708543", null, "2009-05-04T00:00:00", "2.22", "2.17", "2.18", "2.21", "2.23", "2.26", "2.2", "2.19", "2.21" ]
+, [ 445, "6CF02B54-D1E9-483B-B45C-EF616DF5FB21", 445, 1510268463, "708543", 1510268463, "708543", null, "2009-04-27T00:00:00", "2.21", "2.17", "2.19", "2.2", "2.21", "2.25", "2.2", "2.2", "2.22" ]
+, [ 446, "8DEAF408-358D-4125-89B6-0C119B0D070E", 446, 1510268463, "708543", 1510268463, "708543", null, "2009-04-20T00:00:00", "2.19", "2.15", "2.16", "2.18", "2.17", "2.22", "2.18", "2.18", "2.2" ]
+, [ 447, "2D79CC03-1571-4583-A6D1-AF6B404CB97D", 447, 1510268463, "708543", 1510268463, "708543", null, "2009-04-13T00:00:00", "2.17", "2.14", "2.14", "2.17", "2.16", "2.21", "2.16", "2.16", "2.17" ]
+, [ 448, "9A5F847E-6FB5-4FA6-9AB6-942609CC9601", 448, 1510268463, "708543", 1510268463, "708543", null, "2009-04-06T00:00:00", "2.16", "2.13", "2.13", "2.16", "2.16", "2.19", "2.15", "2.15", "2.16" ]
+, [ 449, "B87E1931-952B-4711-B07B-23E641BFFF88", 449, 1510268463, "708543", 1510268463, "708543", null, "2009-03-30T00:00:00", "2.14", "2.1", "2.11", "2.14", "2.13", "2.17", "2.13", "2.12", "2.13" ]
+, [ 450, "F1BFB869-3A29-48CB-975A-E7EDAC760866", 450, 1510268463, "708543", 1510268463, "708543", null, "2009-03-23T00:00:00", "2.09", "2.05", "2.06", "2.09", "2.08", "2.13", "2.09", "2.07", "2.09" ]
+, [ 451, "5C2382EA-C8B4-452B-97B5-AC48A7A43716", 451, 1510268463, "708543", 1510268463, "708543", null, "2009-03-16T00:00:00", "2.09", "2.04", "2.05", "2.09", "2.07", "2.13", "2.09", "2.06", "2.09" ]
+, [ 452, "4275DDDC-343A-4759-B2EA-1331F2419D47", 452, 1510268463, "708543", 1510268463, "708543", null, "2009-03-09T00:00:00", "2.09", "2.05", "2.06", "2.1", "2.07", "2.12", "2.09", "2.07", "2.1" ]
+, [ 453, "A54AA601-C6CD-4323-BBDA-55A7C7027055", 453, 1510268463, "708543", 1510268463, "708543", null, "2009-03-02T00:00:00", "2.08", "2.04", "2.05", "2.1", "2.06", "2.12", "2.08", "2.07", "2.09" ]
+, [ 454, "85321414-9F64-4D2A-A9C8-DC11164AC8B9", 454, 1510268463, "708543", 1510268463, "708543", null, "2009-02-23T00:00:00", "2.1", "2.06", "2.07", "2.11", "2.09", "2.13", "2.1", "2.09", "2.1" ]
+, [ 455, "47FA0FB8-1B4D-4FC9-8CA5-8616ABDF0A61", 455, 1510268463, "708543", 1510268463, "708543", null, "2009-02-16T00:00:00", "2.09", "2.05", "2.07", "2.08", "2.09", "2.13", "2.08", "2.08", "2.09" ]
+, [ 456, "457B5CC3-E1FB-471A-97F2-281BF283E9E1", 456, 1510268463, "708543", 1510268463, "708543", null, "2009-02-09T00:00:00", "2.05", "2.01", "2.02", "2.03", "2.05", "2.09", "2.03", "2.03", "2.04" ]
+, [ 457, "0C92C2AC-B305-4A60-926B-147C760B594F", 457, 1510268463, "708543", 1510268463, "708543", null, "2009-02-02T00:00:00", "1.99", "1.95", "1.95", "1.96", "1.99", "2.03", "1.96", "1.96", "1.99" ]
+, [ 458, "60CE843D-FB5D-4A01-8300-0EE7F9E3AAFE", 458, 1510268463, "708543", 1510268463, "708543", null, "2009-01-26T00:00:00", "1.95", "1.92", "1.91", "1.93", "1.96", "1.99", "1.93", "1.92", "1.95" ]
+, [ 459, "0B6ECDBB-511B-4784-AA53-57108D3BFD2F", 459, 1510268463, "708543", 1510268463, "708543", null, "2009-01-19T00:00:00", "1.91", "1.87", "1.85", "1.89", "1.93", "1.97", "1.88", "1.86", "1.89" ]
+, [ 460, "9482ED4B-FBCD-4D5D-9FA1-A9CE6280D223", 460, 1510268463, "708543", 1510268463, "708543", null, "2009-01-12T00:00:00", "1.87", "1.83", "1.8", "1.86", "1.88", "1.93", "1.83", "1.82", "1.85" ]
+, [ 461, "A8AEF275-020C-43E3-BC21-6FBB9D22F191", 461, 1510268463, "708543", 1510268463, "708543", null, "2009-01-05T00:00:00", "1.83", "1.78", "1.71", "1.85", "1.82", "1.9", "1.8", "1.76", "1.81" ]
+, [ 462, "3D7B0694-9474-43E4-B4F6-FB12DE37FB9E", 462, 1510268463, "708543", 1510268463, "708543", null, "2008-12-29T00:00:00", "1.88", "1.83", "1.76", "1.9", "1.87", "1.96", "1.85", "1.8", "1.85" ]
+, [ 463, "2BA25735-682D-4DFC-9D07-E7C6A2A1C477", 463, 1510268463, "708543", 1510268463, "708543", null, "2008-12-22T00:00:00", "1.93", "1.86", "1.82", "1.96", "1.93", "2.02", "1.9", "1.83", "1.88" ]
+, [ 464, "FA5D0B74-48E0-413D-BAB9-BDCAF3FEFDFD", 464, 1510268463, "708543", 1510268463, "708543", null, "2008-12-15T00:00:00", "2", "1.91", "1.9", "2.07", "1.98", "2.1", "1.98", "1.89", "1.93" ]
+, [ 465, "491DCE54-C214-4A26-80E2-C8C28AB8DFE4", 465, 1510268463, "708543", 1510268463, "708543", null, "2008-12-08T00:00:00", "2.12", "2.02", "2.03", "2.23", "2.1", "2.24", "2.12", "1.99", "2.02" ]
+, [ 466, "E3EC7A61-D743-4C8F-ACE6-92BFF6D520BD", 466, 1510268463, "708543", 1510268463, "708543", null, "2008-12-01T00:00:00", "2.23", "2.1", "2.14", "2.35", "2.2", "2.34", "2.24", "2.08", "2.12" ]
+, [ 467, "BDC5D6C9-54CB-4AA9-861F-C1A6B0B59648", 467, 1510268463, "708543", 1510268463, "708543", null, "2008-11-24T00:00:00", "2.37", "2.23", "2.31", "2.5", "2.33", "2.47", "2.4", "2.23", "2.29" ]
+, [ 468, "1D66EFD7-7EB8-4BC8-B467-6B0BDD21B59D", 468, 1510268463, "708543", 1510268463, "708543", null, "2008-11-17T00:00:00", "2.53", "2.39", "2.51", "2.67", "2.5", "2.62", "2.57", "2.37", "2.44" ]
+, [ 469, "C664AE1D-2654-496E-BD23-CF9BEFD2E81F", 469, 1510268463, "708543", 1510268463, "708543", null, "2008-11-10T00:00:00", "2.7", "2.55", "2.71", "2.86", "2.66", "2.77", "2.76", "2.51", "2.6" ]
+, [ 470, "F6939846-6FBE-4CA0-982A-C9A9A2F42CCF", 470, 1510268463, "708543", 1510268463, "708543", null, "2008-11-03T00:00:00", "2.87", "2.72", "2.89", "3.06", "2.81", "2.94", "2.95", "2.68", "2.76" ]
+, [ 471, "21631E19-C24B-4B16-8AB0-904DE56963FB", 471, 1510268463, "708543", 1510268463, "708543", null, "2008-10-27T00:00:00", "3.07", "2.92", "3.1", "3.3", "3.02", "3.14", "3.2", "2.91", "2.95" ]
+, [ 472, "37E5406B-BE6D-4A97-81A8-E4B03A9BFD9F", 472, 1510268463, "708543", 1510268463, "708543", null, "2008-10-20T00:00:00", "3.27", "3.12", "3.28", "3.48", "3.25", "3.36", "3.4", "3.16", "3.21" ]
+, [ 473, "9B70CF30-684A-4FBE-9F20-AB0D53B15135", 473, 1510268463, "708543", 1510268463, "708543", null, "2008-10-13T00:00:00", "3.49", "3.38", "3.47", "3.64", "3.49", "3.57", "3.58", "3.43", "3.44" ]
+, [ 474, "E11A9E85-A9AF-4346-BDB0-FD661B4C283B", 474, 1510268463, "708543", 1510268463, "708543", null, "2008-10-06T00:00:00", "3.66", "3.59", "3.6", "3.74", "3.67", "3.72", "3.7", "3.63", "3.61" ]
+, [ 475, "1F9EAE5B-EA9A-4BF3-A1EE-2CE6EABAF416", 475, 1510268463, "708543", 1510268463, "708543", null, "2008-09-29T00:00:00", "3.75", "3.68", "3.66", "3.81", "3.76", "3.79", "3.76", "3.71", "3.67" ]
+, [ 476, "80697717-91EE-4044-8931-0C15507CAC88", 476, 1510268463, "708543", 1510268463, "708543", null, "2008-09-22T00:00:00", "3.83", "3.74", "3.74", "3.91", "3.86", "3.86", "3.82", "3.77", "3.71" ]
+, [ 477, "A63F05EF-1482-41EB-8AE1-B9B597406D6B", 477, 1510268463, "708543", 1510268463, "708543", null, "2008-09-15T00:00:00", "3.8", "3.72", "3.71", "3.87", "3.77", "3.84", "3.81", "3.74", "3.71" ]
+, [ 478, "8AD16052-0CF4-4786-882A-5400842558FB", 478, 1510268463, "708543", 1510268463, "708543", null, "2008-09-08T00:00:00", "3.82", "3.74", "3.71", "3.89", "3.79", "3.87", "3.84", "3.77", "3.72" ]
+, [ 479, "6DE7168B-596F-48CB-9841-BB7C324D6855", 479, 1510268463, "708543", 1510268463, "708543", null, "2008-09-01T00:00:00", "3.85", "3.75", "3.7", "3.92", "3.81", "3.91", "3.86", "3.78", "3.74" ]
+, [ 480, "6768145D-099D-4524-AC29-F0D544D8D8B1", 480, 1510268463, "708543", 1510268463, "708543", null, "2008-08-25T00:00:00", "3.9", "3.8", "3.74", "3.96", "3.87", "3.98", "3.92", "3.83", "3.78" ]
+, [ 481, "4E819392-4AE2-400F-8B8C-41697D906396", 481, 1510268463, "708543", 1510268463, "708543", null, "2008-08-18T00:00:00", "4", "3.87", "3.82", "4.04", "3.97", "4.09", "3.99", "3.91", "3.87" ]
+, [ 482, "79CB6EF7-EF37-45AA-A5A0-700E0785E490", 482, 1510268463, "708543", 1510268463, "708543", null, "2008-08-11T00:00:00", "4.1", "3.97", "3.9", "4.12", "4.08", "4.21", "4.07", "4", "4" ]
+, [ 483, "EDA2F17D-6FB6-4D7A-92FF-1AD13959B44D", 483, 1510268463, "708543", 1510268463, "708543", null, "2008-08-04T00:00:00", "4.19", "4.07", "4", "4.18", "4.19", "4.3", "4.14", "4.1", "4.11" ]
+, [ 484, "99730AD1-C83C-4352-BD0D-27C825799270", 484, 1510268463, "708543", 1510268463, "708543", null, "2008-07-28T00:00:00", "4.26", "4.15", "4.09", "4.24", "4.28", "4.36", "4.21", "4.17", "4.17" ]
+, [ 485, "0361B255-7327-4232-BF8B-50658D77DBBB", 485, 1510268463, "708543", 1510268463, "708543", null, "2008-07-21T00:00:00", "4.3", "4.2", "4.15", "4.27", "4.32", "4.4", "4.24", "4.22", "4.2" ]
+, [ 486, "ACB89C91-68F4-4154-AA69-8F8D837332C0", 486, 1510268463, "708543", 1510268463, "708543", null, "2008-07-14T00:00:00", "4.31", "4.21", "4.18", "4.27", "4.34", "4.41", "4.24", "4.23", "4.2" ]
+, [ 487, "F4C0E9A9-5819-4F49-9107-A05F006C33BE", 487, 1510268463, "708543", 1510268463, "708543", null, "2008-07-07T00:00:00", "4.3", "4.2", "4.15", "4.26", "4.33", "4.39", "4.24", "4.22", "4.21" ]
+, [ 488, "65B2EA68-92A9-4451-87A4-6F764C9ADE3E", 488, 1510268463, "708543", 1510268463, "708543", null, "2008-06-30T00:00:00", "4.29", "4.2", "4.16", "4.26", "4.32", "4.38", "4.24", "4.22", "4.22" ]
+, [ 489, "DA09CCD1-5FF9-4846-82E8-0EC3707FE3D7", 489, 1510268463, "708543", 1510268463, "708543", null, "2008-06-23T00:00:00", "4.29", "4.2", "4.17", "4.25", "4.32", "4.38", "4.23", "4.21", "4.22" ]
+, [ 490, "5E06C7C2-BB5E-4878-BA07-1A780C934630", 490, 1510268463, "708543", 1510268463, "708543", null, "2008-06-16T00:00:00", "4.26", "4.19", "4.14", "4.22", "4.29", "4.35", "4.19", "4.18", "4.18" ]
+, [ 491, "99F7A8EF-CE0D-4828-9262-E64EE5ED8D4F", 491, 1510268463, "708543", 1510268463, "708543", null, "2008-06-09T00:00:00", "4.19", "4.12", "4.06", "4.14", "4.24", "4.28", "4.12", "4.11", "4.1" ]
+, [ 492, "B35BBB31-E150-4CA7-BF43-CEF7D6FD880D", 492, 1510268463, "708543", 1510268463, "708543", null, "2008-06-02T00:00:00", "4.14", "4.08", "4.01", "4.09", "4.19", "4.22", "4.07", "4.04", "4.07" ]
+, [ 493, "03F93ED1-6318-4F32-B3CA-97F8DA9DFAD1", 493, 1510268463, "708543", 1510268463, "708543", null, "2008-05-26T00:00:00", "4.03", "3.97", "3.93", "3.97", "4.09", "4.12", "3.96", "3.94", "3.95" ]
+, [ 494, "9FDFD849-DF6E-4A60-8731-04AB1CC094BB", 494, 1510268463, "708543", 1510268463, "708543", null, "2008-05-19T00:00:00", "3.95", "3.89", "3.84", "3.89", "4.01", "4.02", "3.88", "3.85", "3.88" ]
+, [ 495, "4333ABC8-0DBB-4385-BE25-26B35978ECD5", 495, 1510268463, "708543", 1510268463, "708543", null, "2008-05-12T00:00:00", "3.85", "3.8", "3.75", "3.79", "3.9", "3.91", "3.8", "3.76", "3.78" ]
+, [ 496, "6AB06B4B-E164-4333-A550-394BEF708CA3", 496, 1510268463, "708543", 1510268463, "708543", null, "2008-05-05T00:00:00", "3.79", "3.75", "3.7", "3.75", "3.84", "3.84", "3.76", "3.72", "3.73" ]
+, [ 497, "6C623420-F977-4FC3-B488-B3E2F9CE9479", 497, 1510268463, "708543", 1510268463, "708543", null, "2008-04-28T00:00:00", "3.69", "3.66", "3.61", "3.67", "3.74", "3.71", "3.66", "3.63", "3.66" ]
+, [ 498, "A91CF76E-C8D6-49E7-B26B-EA9E80DAE482", 498, 1510268463, "708543", 1510268463, "708543", null, "2008-04-21T00:00:00", "3.56", "3.53", "3.49", "3.57", "3.58", "3.58", "3.56", "3.53", "3.55" ]
+, [ 499, "8BF3B746-7E9F-4E3C-9390-F85B4DA9E9AB", 499, 1510268463, "708543", 1510268463, "708543", null, "2008-04-14T00:00:00", "3.45", "3.41", "3.4", "3.47", "3.45", "3.48", "3.46", "3.44", "3.46" ]
+, [ 500, "0DDF731C-D09A-4F49-B41F-8DB2F9922A75", 500, 1510268463, "708543", 1510268463, "708543", null, "2008-04-07T00:00:00", "3.41", "3.38", "3.37", "3.42", "3.41", "3.44", "3.41", "3.39", "3.42" ]
+, [ 501, "A3E31423-A057-43F4-BF43-2B5E7833D831", 501, 1510268463, "708543", 1510268463, "708543", null, "2008-03-31T00:00:00", "3.4", "3.36", "3.36", "3.4", "3.39", "3.42", "3.39", "3.37", "3.4" ]
+, [ 502, "6EBD865B-26DC-4A63-BFBE-303D839307F5", 502, 1510268463, "708543", 1510268463, "708543", null, "2008-03-24T00:00:00", "3.4", "3.36", "3.37", "3.41", "3.4", "3.42", "3.38", "3.38", "3.4" ]
+, [ 503, "8679E996-B3FA-47C0-879A-481A84EE5910", 503, 1510268463, "708543", 1510268463, "708543", null, "2008-03-17T00:00:00", "3.37", "3.35", "3.35", "3.38", "3.37", "3.39", "3.36", "3.36", "3.38" ]
+, [ 504, "A76AF14D-2860-447B-BB85-D25189384D51", 504, 1510268463, "708543", 1510268463, "708543", null, "2008-03-10T00:00:00", "3.34", "3.31", "3.28", "3.35", "3.32", "3.35", "3.33", "3.33", "3.36" ]
+, [ 505, "08179346-C226-4517-A861-F3CE0CEDA329", 505, 1510268463, "708543", 1510268463, "708543", null, "2008-03-03T00:00:00", "3.32", "3.31", "3.26", "3.32", "3.29", "3.33", "3.32", "3.32", "3.34" ]
+, [ 506, "F47314B0-EA57-44EF-BF58-8FF81F7CCCA9", 506, 1510268463, "708543", 1510268463, "708543", null, "2008-02-25T00:00:00", "3.29", "3.27", "3.22", "3.28", "3.25", "3.29", "3.29", "3.28", "3.31" ]
+, [ 507, "92E5F957-3E3C-4126-A643-9B0760B460F1", 507, 1510268463, "708543", 1510268463, "708543", null, "2008-02-18T00:00:00", "3.23", "3.23", "3.15", "3.25", "3.18", "3.24", "3.25", "3.21", "3.26" ]
+, [ 508, "F18B48DC-A399-4CE8-B5E5-97544872B223", 508, 1510268463, "708543", 1510268463, "708543", null, "2008-02-11T00:00:00", "3.23", "3.23", "3.14", "3.27", "3.19", "3.25", "3.26", "3.23", "3.27" ]
+, [ 509, "B7482543-E9DD-43BC-B618-1B0FA2FC0C97", 509, 1510268463, "708543", 1510268463, "708543", null, "2008-02-04T00:00:00", "3.25", "3.26", "3.17", "3.28", "3.22", "3.27", "3.28", "3.25", "3.28" ]
+, [ 510, "E3217AB4-87BD-4C5A-AFD6-84C61DAF740B", 510, 1510268463, "708543", 1510268463, "708543", null, "2008-01-28T00:00:00", "3.27", "3.27", "3.19", "3.3", "3.25", "3.3", "3.29", "3.27", "3.3" ]
+, [ 511, "01ACA3E4-CA8D-4089-B465-81E694CE1CAA", 511, 1510268463, "708543", 1510268463, "708543", null, "2008-01-21T00:00:00", "3.3", "3.29", "3.24", "3.31", "3.28", "3.32", "3.3", "3.3", "3.33" ]
+, [ 512, "985F679C-B49B-4256-99FF-0C4BF8A55C5E", 512, 1510268463, "708543", 1510268463, "708543", null, "2008-01-14T00:00:00", "3.31", "3.3", "3.26", "3.32", "3.3", "3.33", "3.32", "3.32", "3.34" ]
+, [ 513, "7DF75693-C9D9-4F73-8F45-0DFF6C1EDF44", 513, 1510268463, "708543", 1510268463, "708543", null, "2008-01-07T00:00:00", "3.31", "3.29", "3.26", "3.31", "3.29", "3.32", "3.31", "3.31", "3.33" ]
+, [ 514, "A64F6CEB-58A7-49ED-844D-50988C36ECAC", 514, 1510268463, "708543", 1510268463, "708543", null, "2007-12-31T00:00:00", "3.27", "3.26", "3.2", "3.28", "3.25", "3.29", "3.28", "3.27", "3.3" ]
+, [ 515, "A5B6C4FC-C1F6-41D8-B5EC-2E5ABD827324", 515, 1510268463, "708543", 1510268463, "708543", null, "2007-12-24T00:00:00", "3.26", "3.25", "3.19", "3.28", "3.25", "3.29", "3.28", "3.27", "3.3" ]
+, [ 516, "27C09124-D95F-4C6E-A9C5-F07B4546351B", 516, 1510268463, "708543", 1510268463, "708543", null, "2007-12-17T00:00:00", "3.27", "3.25", "3.21", "3.28", "3.26", "3.29", "3.28", "3.27", "3.3" ]
+, [ 517, "FE24C6A5-96C6-46AF-A4CA-7B8B42C3B285", 517, 1510268463, "708543", 1510268463, "708543", null, "2007-12-10T00:00:00", "3.28", "3.26", "3.24", "3.29", "3.27", "3.3", "3.28", "3.29", "3.32" ]
+, [ 518, "60D40E00-3C54-4653-8064-037030A47DC7", 518, 1510268463, "708543", 1510268463, "708543", null, "2007-12-03T00:00:00", "3.29", "3.27", "3.26", "3.3", "3.28", "3.31", "3.29", "3.29", "3.33" ]
+, [ 519, "0ADA028F-8C6D-4F82-A084-E1A2392F04BA", 519, 1510268463, "708543", 1510268463, "708543", null, "2007-11-26T00:00:00", "3.28", "3.26", "3.25", "3.29", "3.27", "3.28", "3.28", "3.29", "3.32" ]
+, [ 520, "F0419404-4797-43A5-A3DF-CA6E26C76036", 520, 1510268463, "708543", 1510268463, "708543", null, "2007-11-19T00:00:00", "3.26", "3.24", "3.23", "3.27", "3.25", "3.26", "3.26", "3.28", "3.31" ]
+, [ 521, "0BBFDF37-E077-494A-9D0C-CCC29F22403D", 521, 1510268463, "708543", 1510268463, "708543", null, "2007-11-12T00:00:00", "3.21", "3.2", "3.18", "3.21", "3.18", "3.18", "3.2", "3.22", "3.25" ]
+, [ 522, "E27CE62A-949D-44D4-8C44-D5DEE5D3840F", 522, 1510268463, "708543", 1510268463, "708543", null, "2007-11-05T00:00:00", "3.1", "3.09", "3.08", "3.09", "3.06", "3.07", "3.09", "3.1", "3.12" ]
+, [ 523, "971ABA22-2697-4E22-B1AF-C52056EA12A7", 523, 1510268463, "708543", 1510268463, "708543", null, "2007-10-29T00:00:00", "2.98", "2.97", "2.99", "2.99", "2.95", "2.97", "3", "2.99", "3.03" ]
+ ]
+}
