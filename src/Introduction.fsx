@@ -18,13 +18,26 @@ let add x y = x + y
 let firstTen = [1 .. 10]
 //You Do: create a Sequence named 'firstHundred' that contains the numbers 0 to 100
 
-//---CREATE A LAMBDA---
+//---USE A HIGH ORDER FUNCTION WITH A NAMED FUNCTION---
+//I Do: create a function that takes in an int and adds 1 to it
+//then create a Sequence that contains the numbers 1 to 10
+//then use the map high-order function to apply the named function to the sequence
+let addOne x = x + 1
+[1 .. 10]
+|> Seq.map(addOne)
+
+//You Do: create a function that takes in an int and multiplies it by 10
+//then create a Sequence that contains the numbers 0 to 100
+//then use the map high-order function to apply the named function to the sequence
+
+
+//---USE A HIGH ORDER FUNCTION WITH A LAMBDA---
 //I Do: create a Sequence that contains the numbers 1 to 10 then create a lambda that adds 1 to each number
 [1 .. 10]
 |> Seq.map(fun i -> i + 1)
 //You Do: create a Sequence that contains the numbers 0 to 100 then create a lambda that multiplies 2 to each number
 
-//---CHAINING LAMBDAS---
+//---CHAINING HIGH ORDER FUNCTIONS---
 //I Do: create a Sequence that contains the numbers 1 to 10 
 //then create a lambda that adds 1 to each number 
 //then create a lambda that turns the ints into floats
