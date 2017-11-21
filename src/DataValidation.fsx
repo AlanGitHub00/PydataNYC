@@ -44,7 +44,7 @@ let insertCustomer customer =
         let commandText = "usp_InsertCustomer"
         use command = new SqlCommand(commandText)
         command.CommandType <- CommandType.StoredProcedure
-        let parameter = new SqlParameter()
+        let parameter = SqlParameter()
         parameter.ParameterName <- "customer"
         parameter.Value <- customer
         command.Parameters.Add(parameter) |> ignore
@@ -67,7 +67,7 @@ let emailCustomerProcessedNotification customer =
     try
         let emailReceipiant = "test"
         let subject = "Customer " + customer.CustomerId.ToString() + "was added";
-        let message = new StringBuilder()
+        let message = StringBuilder()
         message.Append(customer.FirstName + " " + customer.LastName) |> ignore
         message.Append(" from " + customer.Address + " " + customer.City + ", " + customer.State) |> ignore
         message.Append(" was added to our system.") |> ignore
@@ -95,7 +95,5 @@ let testResult = RegisterNewCustomer customer
 
 match testResult with 
         | Success c ->  printfn "Customer %A was added."(c.CustomerId.ToString())
-        | MinorFailure f -> printfn "Customer was not added. Please try again"
-        | MajorFailure f -> printfn "Customer was not added. We are looking into it."
-    
-
+        | MinorFailure _ -> printfn "Customer was not added. Please try again"
+        | MajorFailure _ -> printfn "Customer was not added. We are looking into it."
